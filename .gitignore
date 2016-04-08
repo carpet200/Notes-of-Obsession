@@ -1,0 +1,13 @@
+# Unreal Engine related
+
+[Bb]inaries/
+[Dd]erivedDataCache/
+[Ii]ntermediate/
+[Ss]aved/
+
+# Generated project files 
+
+*.sdf
+*.sln
+*.suo
+
