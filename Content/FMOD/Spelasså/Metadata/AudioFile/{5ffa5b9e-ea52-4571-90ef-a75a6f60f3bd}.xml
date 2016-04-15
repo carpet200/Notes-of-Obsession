@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="AudioFile" id="{5ffa5b9e-ea52-4571-90ef-a75a6f60f3bd}">
+        <property name="assetPath">
+            <value>mbox_2.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.0526458333333333</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{82d64c84-1218-44d0-bf73-20d65895b53a}</destination>
+        </relationship>
+    </object>
+</objects>

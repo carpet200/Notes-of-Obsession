@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="Event" id="{7bfedce0-4951-4304-92ca-bf73cfba5940}">
+        <relationship name="uiLastParameterSelection">
+            <destination>{2a71d34f-61fc-49b1-a743-4953d15f7a7c}</destination>
+        </relationship>
+    </object>
+    <object class="MasterTrack" id="{b7bfbe8e-5913-4452-b965-dded11ae1599}"/>
+    <object class="MixerInput" id="{26c37ad8-51b3-4f22-a071-877f9d04fec0}"/>
+    <object class="EventAutomatableProperties" id="{c8d5f69e-c628-41f9-8d9d-c8be5c7fe71c}"/>
+    <object class="MarkerTrack" id="{25a46393-11b7-4b65-a1b2-94ebfdb0ab0e}"/>
+    <object class="GroupTrack" id="{0ad601fc-09f4-43f4-afae-400842947897}"/>
+    <object class="Timeline" id="{f135b773-0a3b-4074-9fd0-b0854e0e16c6}">
+        <property name="cursorPosition">
+            <value>1.0599078341013826</value>
+        </property>
+        <property name="uiLastRulerScaleRatio">
+            <value>0.02461033634126333</value>
+        </property>
+    </object>
+    <object class="GameParameter" id="{2a71d34f-61fc-49b1-a743-4953d15f7a7c}">
+        <property name="cursorPosition">
+            <value>0</value>
+        </property>
+        <property name="uiLastRulerScaleRatio">
+            <value>0.027071369975389663</value>
+        </property>
+    </object>
+    <object class="EventMixerMaster" id="{90c47b77-4af4-41c4-9f4e-d305d56b8fd9}">
+        <relationship name="input">
+            <destination>{562cc9ef-21ca-41e3-bcf2-8cca93532551}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{5d628b15-0276-486b-aac2-66d563297277}"/>
+    <object class="MixerBusPanner" id="{9898e631-1bb8-40db-9c97-84f361e54c12}"/>
+    <object class="SingleSound" id="{5a23fb06-399d-44b5-be19-b36321422ca7}"/>
+    <object class="SingleSound" id="{e1cb8eba-3999-484b-b354-bf967875677f}"/>
+    <object class="SingleSound" id="{c2a19d08-12b2-4b89-9f7b-587d2ee626a7}"/>
+    <object class="SingleSound" id="{928f1019-d280-4e22-b36e-f0e6e944e926}"/>
+    <object class="SingleSound" id="{dc96125f-f06c-40ae-b243-bca23b750acf}"/>
+    <object class="SingleSound" id="{ecbf4ce7-7670-490e-8aed-7ad350f3698e}"/>
+    <object class="SingleSound" id="{dda59a23-8006-44b4-8f33-b2c729ad1c53}"/>
+    <object class="SingleSound" id="{c0280fef-8f88-4205-80d8-f503a19af5fa}"/>
+    <object class="SingleSound" id="{b206d971-cfbd-4a71-8336-aa3451de2ca9}"/>
+    <object class="SingleSound" id="{b5bd6e18-973a-4183-b786-7719e355e1be}"/>
+    <object class="SingleSound" id="{a09429ba-6226-414c-8b84-5293d9670272}"/>
+    <object class="SingleSound" id="{13e2532d-f024-4b42-b06a-0fba8b2fc772}"/>
+    <object class="SingleSound" id="{42416151-e682-4638-9e35-8e7eed5082da}"/>
+    <object class="SingleSound" id="{55379e21-7139-4dee-a795-adbf41febec5}"/>
+    <object class="SingleSound" id="{8eef6a7c-5fab-483b-9bb4-e6c7c57c3336}"/>
+    <object class="SingleSound" id="{b8e50433-b2ee-45b4-9ff0-dd9b79ea34bb}"/>
+    <object class="SingleSound" id="{0189e6e3-1322-4e45-a6c0-fb5587023cd0}"/>
+    <object class="SingleSound" id="{70fdeede-0fb6-4415-a9d7-2d30a52e9ed2}"/>
+    <object class="SingleSound" id="{64314ba3-1117-4afa-9f28-b273fc61b47b}"/>
+    <object class="SingleSound" id="{bde59e17-5ce5-4441-b2cf-a652a384acf5}"/>
+    <object class="SingleSound" id="{a208ce72-023f-45e1-b28f-306db99ba1e1}"/>
+    <object class="SingleSound" id="{cc1b05ac-6189-4a4b-83f2-b418afcb592c}"/>
+    <object class="SingleSound" id="{03ebfb88-e914-4997-9820-04fb79693ef1}"/>
+    <object class="SingleSound" id="{45050e3f-735d-429a-aa12-1195595f4281}"/>
+    <object class="SingleSound" id="{1d1d38be-925b-4fcf-a0ac-7b391bc91851}"/>
+    <object class="SingleSound" id="{1bc097e1-e171-4e70-9105-e7350c6b21c3}"/>
+    <object class="SingleSound" id="{723d59fb-3969-4bf9-8ddb-62827b2d7c15}"/>
+    <object class="SingleSound" id="{8cc99496-d09b-48bb-8024-1654f14f2dc5}"/>
+    <object class="SingleSound" id="{de01eb2e-da88-4261-a113-e8c50454960f}"/>
+    <object class="SingleSound" id="{803564e6-2d36-4bec-a6c7-79757f802a22}"/>
+    <object class="SingleSound" id="{8a8ddf9f-2390-412b-a4ca-86806461c8a4}"/>
+    <object class="SingleSound" id="{9ae31d55-6db9-4059-b180-0481c8c2503b}"/>
+    <object class="EventMixerGroup" id="{562cc9ef-21ca-41e3-bcf2-8cca93532551}"/>
+    <object class="MixerBusEffectChain" id="{26e506cf-8487-4381-ac53-9baf78919b57}"/>
+    <object class="MixerBusPanner" id="{bf1aa5f1-b68b-4af9-9556-975a9e846c40}"/>
+    <object class="MixerBusFader" id="{8d17c654-be27-4f33-b589-92e166395a5c}"/>
+    <object class="MixerBusEffectChain" id="{3a42ccd5-56b3-4fad-a793-63aaae86381a}"/>
+    <object class="MixerBusPanner" id="{6ce97f26-98b0-45be-80ca-e0afb403429b}"/>
+    <object class="MixerBusFader" id="{64729763-8833-439f-8576-a353895da419}"/>
+    <object class="SpatialiserEffect" id="{7df05e96-29bb-47a9-b7a4-04c5d956c320}"/>
+    <object class="MixerSend" id="{7d2a7498-5182-4bf8-a064-51e2795ae485}"/>
+    <object class="MixerBusFader" id="{fe3b031a-bd9b-45dd-8b40-39f9e7f2e97c}"/>
+    <object class="SFXReverbEffect" id="{87391e7d-699a-43df-a28f-7852d06aa833}"/>
+</objects>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="MixerGroup" id="{ce933894-30ba-46f5-ac26-0e58aa720212}">
+        <property name="name">
+            <value>Speldosa</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{cb7c440d-5eef-4104-9598-c17dcc77da79}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{db94f9f1-0f71-4b54-ac3a-8b400c21b2a1}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{7fa7f452-b05e-462c-b3e9-c8f69f9afec2}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{cb7c440d-5eef-4104-9598-c17dcc77da79}">
+        <relationship name="effects">
+            <destination>{60488628-086b-4cbc-9b7c-e88d8c680e1b}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{db94f9f1-0f71-4b54-ac3a-8b400c21b2a1}"/>
+    <object class="MixerBusFader" id="{60488628-086b-4cbc-9b7c-e88d8c680e1b}"/>
+</objects>
