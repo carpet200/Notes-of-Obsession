@@ -122,7 +122,7 @@
     <object class="MixerBusPanner" id="{f56e16e7-fea4-46b9-8bfa-967964f1720f}"/>
     <object class="MultiSound" id="{296428d0-912b-40d1-ae53-c2eaaa80aef2}">
         <property name="start">
-            <value>0</value>
+            <value>0.99999999999999556</value>
         </property>
         <property name="length">
             <value>0.90000000000000002</value>
@@ -143,7 +143,7 @@
     </object>
     <object class="MultiSound" id="{d2d74425-d0cc-42cf-adaf-b4284f991e04}">
         <property name="start">
-            <value>1</value>
+            <value>1.9999999999999971</value>
         </property>
         <property name="length">
             <value>0.89999999999999991</value>
@@ -166,7 +166,7 @@
     </object>
     <object class="MultiSound" id="{19ca2b31-d41c-423b-8756-2b2bdfd386ce}">
         <property name="start">
-            <value>1.9999999999999998</value>
+            <value>2.9999999999999991</value>
         </property>
         <property name="length">
             <value>0.90000000000000013</value>
@@ -187,7 +187,7 @@
     </object>
     <object class="MultiSound" id="{3c09a6be-22dc-433f-9bd1-1186c353c5e4}">
         <property name="start">
-            <value>3</value>
+            <value>3.9999999999999991</value>
         </property>
         <property name="length">
             <value>0.90000000000000036</value>
@@ -208,7 +208,7 @@
     </object>
     <object class="MultiSound" id="{4c072549-54b0-4f2f-8e38-2e0de9017da8}">
         <property name="start">
-            <value>4</value>
+            <value>5</value>
         </property>
         <property name="length">
             <value>0.90000000000000036</value>
@@ -249,7 +249,7 @@
             <value>74</value>
         </property>
         <property name="start">
-            <value>1.9999999999999998</value>
+            <value>2.9999999999999991</value>
         </property>
         <property name="length">
             <value>0.90000000000000013</value>
@@ -272,7 +272,7 @@
     </object>
     <object class="MultiSound" id="{05c62134-fe16-477f-9e24-f429be547bed}">
         <property name="start">
-            <value>4</value>
+            <value>5</value>
         </property>
         <property name="length">
             <value>0.90000000000000036</value>
@@ -298,7 +298,7 @@
             <value>20.5</value>
         </property>
         <property name="start">
-            <value>3</value>
+            <value>3.9999999999999991</value>
         </property>
         <property name="length">
             <value>0.90000000000000013</value>
