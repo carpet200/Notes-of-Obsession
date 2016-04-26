@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
+<<<<<<< HEAD
+    <object class="Event" id="{890bd9e1-f158-499e-8264-09f7914a5390}"/>
+=======
     <object class="Event" id="{890bd9e1-f158-499e-8264-09f7914a5390}">
         <relationship name="selectables">
             <destination>{a10c1801-664f-4e5c-849e-e8a32c40efc9}</destination>
@@ -8,6 +11,7 @@
             <destination>{dd969955-b92d-44a2-a2c5-e69d3b850bc6}</destination>
         </relationship>
     </object>
+>>>>>>> origin/master
     <object class="MasterTrack" id="{a10c1801-664f-4e5c-849e-e8a32c40efc9}">
         <property name="uiAutomationTracksVisible">
             <value>true</value>
@@ -33,16 +37,16 @@
         <property name="uiLastRulerScaleRatio">
             <value>0.02734375</value>
         </property>
-        <property name="uiLastHorizontalScrollBarValue">
-            <value>13</value>
-        </property>
     </object>
     <object class="GameParameter" id="{17c70e34-350f-4d6f-8b08-91f3ba4046c0}">
         <property name="cursorPosition">
-            <value>0</value>
+            <value>1</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.00082034454470877774</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>579</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{12e1cd9f-b3d6-4077-a5ba-5f7c1abc2e25}">

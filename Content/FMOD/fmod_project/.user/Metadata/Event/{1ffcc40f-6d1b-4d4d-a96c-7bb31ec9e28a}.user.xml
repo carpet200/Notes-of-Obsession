@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="Event" id="{1ffcc40f-6d1b-4d4d-a96c-7bb31ec9e28a}">
+        <relationship name="uiLastParameterSelection">
+            <destination>{9cd00b29-7a7a-48f9-9720-485acef03d9b}</destination>
+        </relationship>
+    </object>
+    <object class="MasterTrack" id="{420df435-07ad-4535-b4ef-6f04bef1e920}"/>
+    <object class="MixerInput" id="{e015d0dd-b0b8-4e5d-a94d-aa9f64a4ac3a}"/>
+    <object class="EventAutomatableProperties" id="{d3d17d10-ced9-4751-81d8-44541518b881}"/>
+    <object class="MarkerTrack" id="{9252ffa6-6621-43d7-bfe6-2738dccc35b9}"/>
+    <object class="GroupTrack" id="{ad4c50be-1e8c-43bc-89f5-9ea577a935e3}"/>
+    <object class="GroupTrack" id="{8080bd02-f259-4531-a78b-6ddccc1964e9}"/>
+    <object class="GroupTrack" id="{37626cf3-c63f-4103-800f-fc3c3bdfc69f}"/>
+    <object class="Timeline" id="{9f1b077d-ebdb-4fba-a9ca-67765513345b}">
+        <property name="cursorPosition">
+            <value>0</value>
+        </property>
+        <property name="uiLastRulerScaleRatio">
+            <value>0.02461033634126333</value>
+        </property>
+    </object>
+    <object class="GameParameter" id="{9cd00b29-7a7a-48f9-9720-485acef03d9b}">
+        <property name="cursorPosition">
+            <value>0</value>
+        </property>
+        <property name="uiLastRulerScaleRatio">
+            <value>0.0041017227235438884</value>
+        </property>
+    </object>
+    <object class="EventMixerMaster" id="{1ec9587b-796f-4dbb-a70d-b16962e7475a}">
+        <relationship name="input">
+            <destination>{d9f6a77c-f621-45b2-a6c8-3b1847a1c325}</destination>
+            <destination>{dddc9721-737a-48dd-9d94-64bdc8f9a4db}</destination>
+            <destination>{98112a56-a1bf-463c-9b35-36e35f691948}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{e6ced066-7738-4297-9297-a52a918f3ef4}"/>
+    <object class="MixerBusPanner" id="{dce93d87-7354-491a-9ca4-b5884c7fb3cb}"/>
+    <object class="SingleSound" id="{21edafad-f70c-47b0-a824-94883c531906}"/>
+    <object class="SingleSound" id="{a7c04a13-060a-40d4-9c07-46ff7ef57164}"/>
+    <object class="EventMixerGroup" id="{d9f6a77c-f621-45b2-a6c8-3b1847a1c325}"/>
+    <object class="AutomationTrack" id="{ad057a03-3bec-4921-85e4-19e1ae6beb9a}"/>
+    <object class="SingleSound" id="{2096942d-1390-4153-b19d-7c72d108a5cd}"/>
+    <object class="SingleSound" id="{619c8054-ce5b-495e-ab7e-0232009bb1f5}"/>
+    <object class="EventMixerGroup" id="{dddc9721-737a-48dd-9d94-64bdc8f9a4db}"/>
+    <object class="MultiSound" id="{93405455-73f7-498d-bf3e-cfee259fc8d7}"/>
+    <object class="EventMixerGroup" id="{98112a56-a1bf-463c-9b35-36e35f691948}"/>
+    <object class="MixerBusEffectChain" id="{853fc156-1d1a-4616-9dc1-326abd7d3983}"/>
+    <object class="MixerBusPanner" id="{66c465c6-f1de-427b-ad90-059d3638af1a}"/>
+    <object class="MixerBusFader" id="{e3d98e14-cb67-4029-aa30-6f43be65616b}"/>
+    <object class="MixerBusEffectChain" id="{33c39204-3672-4d31-b865-b083a630070c}"/>
+    <object class="MixerBusPanner" id="{812a5534-2ee8-4066-b1a3-b7a09146109b}"/>
+    <object class="MixerBusEffectChain" id="{f4765d44-514d-48b5-8b13-61cac96fac55}"/>
+    <object class="MixerBusPanner" id="{0f47157a-1587-442b-b9b5-b4ecab8a2e10}"/>
+    <object class="SingleSound" id="{79c098dd-ef61-430d-910e-d913e47b3486}"/>
+    <object class="SingleSound" id="{8fe428be-a795-4719-9995-7afc078d1614}"/>
+    <object class="MixerBusEffectChain" id="{7f92be6e-c6aa-4760-9fde-b79cad545aa7}"/>
+    <object class="MixerBusPanner" id="{5fda6a6f-920f-4f73-ad10-a95d3d47125d}"/>
+    <object class="MixerBusFader" id="{dbc68921-cd86-479c-a859-5fc1b22741a7}"/>
+    <object class="MixerSend" id="{b73ab9a6-f1fb-49ad-98f5-2b011250e14d}"/>
+    <object class="MixerBusFader" id="{a4cce9a6-1fc4-4939-b275-1112bfede909}"/>
+    <object class="MixerBusFader" id="{03b6a6aa-44c4-4435-8844-d085e7877480}"/>
+    <object class="MixerBusFader" id="{ca915b7f-872e-476d-8073-6f01d0c3a226}"/>
+</objects>
