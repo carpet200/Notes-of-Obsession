@@ -1,58 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
-<<<<<<< HEAD
     <object class="Event" id="{890bd9e1-f158-499e-8264-09f7914a5390}"/>
-=======
-    <object class="Event" id="{890bd9e1-f158-499e-8264-09f7914a5390}">
-        <relationship name="selectables">
-            <destination>{a10c1801-664f-4e5c-849e-e8a32c40efc9}</destination>
-        </relationship>
-        <relationship name="uiLastParameterSelection">
-            <destination>{dd969955-b92d-44a2-a2c5-e69d3b850bc6}</destination>
-        </relationship>
-    </object>
->>>>>>> origin/master
-    <object class="MasterTrack" id="{a10c1801-664f-4e5c-849e-e8a32c40efc9}">
-        <property name="uiAutomationTracksVisible">
-            <value>true</value>
-        </property>
-    </object>
+    <object class="MasterTrack" id="{a10c1801-664f-4e5c-849e-e8a32c40efc9}"/>
     <object class="MixerInput" id="{d6256734-fa56-473a-a4d0-96783c800c43}"/>
     <object class="EventAutomatableProperties" id="{1a640a52-a5d6-4405-b470-476d527e2553}"/>
     <object class="MarkerTrack" id="{b4b630d5-d8a5-4eb9-93d7-db27c0ec7f41}"/>
     <object class="GroupTrack" id="{bd04d00e-33d9-46a8-b895-3e644ddb26d7}"/>
     <object class="GroupTrack" id="{2b90830f-dd71-455f-869c-80acfb82028e}"/>
     <object class="Timeline" id="{440d2567-9b05-494d-b772-06bfe11e4474}">
-        <property name="cursorPosition">
-            <value>0</value>
-        </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.02461033634126333</value>
         </property>
     </object>
     <object class="GameParameter" id="{dd969955-b92d-44a2-a2c5-e69d3b850bc6}">
         <property name="cursorPosition">
-            <value>0</value>
+            <value>3.6000001430511475</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.02734375</value>
+            <value>0.02871205906480722</value>
         </property>
     </object>
     <object class="GameParameter" id="{17c70e34-350f-4d6f-8b08-91f3ba4046c0}">
-        <property name="cursorPosition">
-            <value>1</value>
-        </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.00082034454470877774</value>
-        </property>
-        <property name="uiLastHorizontalScrollBarValue">
-            <value>579</value>
+            <value>0.001567398119122257</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{12e1cd9f-b3d6-4077-a5ba-5f7c1abc2e25}">
         <relationship name="input">
-            <destination>{0903df4c-34f9-425e-bd0b-fcf73b4abad7}</destination>
             <destination>{4590ad92-4599-458d-a170-3a16c91c5742}</destination>
+            <destination>{0903df4c-34f9-425e-bd0b-fcf73b4abad7}</destination>
         </relationship>
     </object>
     <object class="AutomationTrack" id="{9ac54f82-c02e-4b5a-97f4-ca2167ece996}"/>

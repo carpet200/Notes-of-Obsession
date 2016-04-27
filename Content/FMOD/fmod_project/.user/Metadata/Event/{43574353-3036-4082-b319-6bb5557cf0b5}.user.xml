@@ -43,12 +43,12 @@
     <object class="EventMixerGroup" id="{930258d6-b719-469a-8af5-c8d0d42691e1}"/>
     <object class="MultiSound" id="{70688ed4-9d3e-414f-9841-23abe2ae3def}"/>
     <object class="EventMixerGroup" id="{6796a234-a05b-4521-ac47-f2ece2602363}"/>
-    <object class="TransitionMarker" id="{544415e9-a648-43fc-a68f-f1d3a0556700}"/>
-    <object class="NamedMarker" id="{e95de83d-f4ef-42fa-b50f-2dcdc28c5b14}"/>
-    <object class="TransitionRegion" id="{5f0f03c0-c654-4e89-8d8d-42da2bbe210d}"/>
-    <object class="TransitionRegion" id="{b8e0b134-f67b-4d40-a324-8b823404a704}"/>
-    <object class="NamedMarker" id="{2d95c2da-23c5-43e6-a0a2-538cc6398e6c}"/>
     <object class="NamedMarker" id="{23ae249e-1830-4a3a-8da7-a5899a0a6eef}"/>
+    <object class="NamedMarker" id="{2d95c2da-23c5-43e6-a0a2-538cc6398e6c}"/>
+    <object class="TransitionRegion" id="{b8e0b134-f67b-4d40-a324-8b823404a704}"/>
+    <object class="TransitionRegion" id="{5f0f03c0-c654-4e89-8d8d-42da2bbe210d}"/>
+    <object class="NamedMarker" id="{e95de83d-f4ef-42fa-b50f-2dcdc28c5b14}"/>
+    <object class="TransitionMarker" id="{544415e9-a648-43fc-a68f-f1d3a0556700}"/>
     <object class="MixerBusEffectChain" id="{daa97082-4724-41e2-9064-74a7aa6357b1}"/>
     <object class="MixerBusPanner" id="{3a45d26b-a5f9-41c8-b7b4-251c19a58322}"/>
     <object class="MixerBusFader" id="{0d690119-4a73-4b08-9fb9-2106a3c39a52}"/>
@@ -58,8 +58,8 @@
     <object class="SingleSound" id="{a1bd39e5-dfe3-4408-b42e-faeab1d27911}"/>
     <object class="MixerBusEffectChain" id="{bf4d4f8a-0ec1-4de6-b273-f47becfffde8}"/>
     <object class="MixerBusPanner" id="{1b5aa9a9-561d-4698-8e11-21777b7803f1}"/>
-    <object class="ParameterCondition" id="{e8347f7f-7df9-4d26-a6ad-dd489ad6c4a9}"/>
     <object class="ParameterCondition" id="{f1ddc629-c62a-48cc-be53-fe972988641e}"/>
+    <object class="ParameterCondition" id="{e8347f7f-7df9-4d26-a6ad-dd489ad6c4a9}"/>
     <object class="MixerBusFader" id="{c5453de2-3328-4d21-b637-22961717a1e2}"/>
     <object class="SpatialiserEffect" id="{7868090e-d2f2-4f2d-a611-4553beca001f}"/>
     <object class="MixerSend" id="{04588f00-e6a4-4307-9e87-5968792d81bd}"/>

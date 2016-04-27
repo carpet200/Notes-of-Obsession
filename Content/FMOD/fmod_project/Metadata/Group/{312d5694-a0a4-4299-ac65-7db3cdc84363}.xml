@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.01.08.00">
     <object class="MixerGroup" id="{312d5694-a0a4-4299-ac65-7db3cdc84363}">
         <property name="volume">
-            <value>-16.8000011</value>
+            <value>-10</value>
         </property>
         <property name="name">
-            <value>Musik</value>
+            <value>Music_amb</value>
         </property>
         <relationship name="effectChain">
             <destination>{a6f6fb2f-db71-4adc-8ed9-30371e76dbad}</destination>

@@ -58,7 +58,7 @@
             <destination>{dce93d87-7354-491a-9ca4-b5884c7fb3cb}</destination>
         </relationship>
         <relationship name="output">
-            <destination>{fd907fc1-088d-45b6-abc9-43b7f58730d0}</destination>
+            <destination>{312d5694-a0a4-4299-ac65-7db3cdc84363}</destination>
         </relationship>
     </object>
     <object class="EventAutomatableProperties" id="{d3d17d10-ced9-4751-81d8-44541518b881}"/>
@@ -87,6 +87,7 @@
     <object class="GroupTrack" id="{37626cf3-c63f-4103-800f-fc3c3bdfc69f}">
         <relationship name="modules">
             <destination>{93405455-73f7-498d-bf3e-cfee259fc8d7}</destination>
+            <destination>{cda6ec5d-7ce1-413a-b8bf-b59010f7e6ee}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{98112a56-a1bf-463c-9b35-36e35f691948}</destination>
@@ -109,6 +110,7 @@
             <destination>{a7c04a13-060a-40d4-9c07-46ff7ef57164}</destination>
             <destination>{619c8054-ce5b-495e-ab7e-0232009bb1f5}</destination>
             <destination>{93405455-73f7-498d-bf3e-cfee259fc8d7}</destination>
+            <destination>{cda6ec5d-7ce1-413a-b8bf-b59010f7e6ee}</destination>
         </relationship>
         <relationship name="automationCurves">
             <destination>{13723348-b264-475f-9cd8-42e4832f302c}</destination>
@@ -248,6 +250,17 @@
         <relationship name="sounds">
             <destination>{79c098dd-ef61-430d-910e-d913e47b3486}</destination>
             <destination>{8fe428be-a795-4719-9995-7afc078d1614}</destination>
+        </relationship>
+    </object>
+    <object class="SingleSound" id="{cda6ec5d-7ce1-413a-b8bf-b59010f7e6ee}">
+        <property name="start">
+            <value>0.050000000000000003</value>
+        </property>
+        <property name="length">
+            <value>0.25779327317473344</value>
+        </property>
+        <relationship name="audioFile">
+            <destination>{124c6542-30d5-4dab-b7e6-866b23775aae}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{98112a56-a1bf-463c-9b35-36e35f691948}">
