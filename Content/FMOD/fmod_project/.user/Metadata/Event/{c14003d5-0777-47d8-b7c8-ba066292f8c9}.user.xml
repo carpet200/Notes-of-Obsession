@@ -20,7 +20,7 @@
     </object>
     <object class="GameParameter" id="{df8a725b-9d3b-4cff-b673-0f16f3af375f}">
         <property name="cursorPosition">
-            <value>0</value>
+            <value>2.1865957441044248</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0080985027559423144</value>
@@ -28,10 +28,10 @@
     </object>
     <object class="GameParameter" id="{70d82cb4-af1c-41a4-a16d-3b658ad0c700}">
         <property name="cursorPosition">
-            <value>0</value>
+            <value>0.060000002384185791</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.001567398119122257</value>
+            <value>0.00082034454470877774</value>
         </property>
         <property name="uiLastHorizontalScrollBarValue">
             <value>59</value>
