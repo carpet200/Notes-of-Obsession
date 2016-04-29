@@ -155,7 +155,7 @@
             <value>matta</value>
         </property>
         <property name="volume">
-            <value>6.5</value>
+            <value>2.5</value>
         </property>
         <relationship name="modulators">
             <destination>{d5fb6bcd-0585-412d-9e31-39612f6bcd5d}</destination>
