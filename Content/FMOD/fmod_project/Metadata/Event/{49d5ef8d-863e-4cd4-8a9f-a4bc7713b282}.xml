@@ -890,11 +890,7 @@
             <value>4900</value>
         </property>
     </object>
-    <object class="SpatialiserEffect" id="{3751a268-62e3-48d3-893c-ba6ae8a3402f}">
-        <property name="maximumDistance">
-            <value>15</value>
-        </property>
-    </object>
+    <object class="SpatialiserEffect" id="{3751a268-62e3-48d3-893c-ba6ae8a3402f}"/>
     <object class="MixerBusFader" id="{ed6711fb-2540-484a-89bc-21ccbc79d38b}"/>
     <object class="MixerSend" id="{d8b984b4-7d9d-4095-b4e4-145ea48b6a6f}">
         <property name="inputFormat">

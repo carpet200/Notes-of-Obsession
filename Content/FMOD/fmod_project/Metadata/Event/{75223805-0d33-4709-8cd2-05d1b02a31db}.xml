@@ -5,7 +5,7 @@
             <value>Rum_4</value>
         </property>
         <property name="outputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="mixer">
             <destination>{a452eaa8-e77e-49ee-9045-b253a93fab2a}</destination>
@@ -54,7 +54,7 @@
             <destination>{296afb24-c44c-4bdb-a8ef-d0014b6ce1a7}</destination>
         </relationship>
         <relationship name="output">
-            <destination>{fd907fc1-088d-45b6-abc9-43b7f58730d0}</destination>
+            <destination>{00ec02d1-f1fa-4bc0-99c6-a5bace8d2ae9}</destination>
         </relationship>
     </object>
     <object class="EventAutomatableProperties" id="{cdea9bf4-1f9a-4875-8ae7-e8b9965aa11c}"/>
@@ -187,7 +187,6 @@
     <object class="MixerBusEffectChain" id="{ddb9bfcd-b660-403d-a29b-16dc24ed6a1e}">
         <relationship name="effects">
             <destination>{6354eaba-032e-48a0-8b76-9f538cca93c4}</destination>
-            <destination>{ae67536e-be66-4e72-b311-94856c37b1c0}</destination>
             <destination>{e95c6ab5-8906-4d73-9879-c8d91f253fdd}</destination>
         </relationship>
     </object>
@@ -206,10 +205,9 @@
     </object>
     <object class="MixerBusPanner" id="{a8398c4d-71d4-42a3-a2c9-e392be3f89a6}"/>
     <object class="MixerBusFader" id="{6354eaba-032e-48a0-8b76-9f538cca93c4}"/>
-    <object class="SpatialiserEffect" id="{ae67536e-be66-4e72-b311-94856c37b1c0}"/>
     <object class="MixerSend" id="{e95c6ab5-8906-4d73-9879-c8d91f253fdd}">
         <property name="inputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="mixerReturn">
             <destination>{12c215c2-057d-4f88-bd9f-2b906f6537c3}</destination>
