@@ -45,12 +45,12 @@
         </property>
     </object>
     <object class="EventMixerGroup" id="{0d7c2d21-0d50-4035-8c79-38b8ad4ae7ea}"/>
-    <object class="TransitionRegion" id="{c82b0b64-15c7-4bd9-ac7c-ac5405bebffa}"/>
-    <object class="TransitionRegion" id="{5d2a9141-9ef4-4347-983f-a067925afad2}"/>
-    <object class="TransitionMarker" id="{dc0562c3-f2d3-4eb8-9e6b-97a17ebbb6cb}"/>
-    <object class="NamedMarker" id="{02d185ea-5439-4b70-9a29-19b511ca5904}"/>
-    <object class="NamedMarker" id="{4996f554-ac9a-461f-a6dd-d6a8108450ac}"/>
     <object class="NamedMarker" id="{6c0773f3-c28a-494d-9fb4-8cee76b4ba85}"/>
+    <object class="NamedMarker" id="{4996f554-ac9a-461f-a6dd-d6a8108450ac}"/>
+    <object class="NamedMarker" id="{02d185ea-5439-4b70-9a29-19b511ca5904}"/>
+    <object class="TransitionMarker" id="{dc0562c3-f2d3-4eb8-9e6b-97a17ebbb6cb}"/>
+    <object class="TransitionRegion" id="{5d2a9141-9ef4-4347-983f-a067925afad2}"/>
+    <object class="TransitionRegion" id="{c82b0b64-15c7-4bd9-ac7c-ac5405bebffa}"/>
     <object class="MixerBusEffectChain" id="{8b65c08f-3bfa-4be2-b338-4c8711733789}"/>
     <object class="MixerBusPanner" id="{eff2f506-de8f-4b2d-abb0-e2f112424c75}"/>
     <object class="MixerBusFader" id="{7c62b70d-fa56-4683-9905-8924da44e9dd}"/>
@@ -66,8 +66,8 @@
     <object class="SingleSound" id="{429404a4-2596-4ea9-a7f6-abd15d8e9f36}"/>
     <object class="MixerBusEffectChain" id="{f608bd72-1fae-4d8c-88c8-de962165f865}"/>
     <object class="MixerBusPanner" id="{65dbc129-dbc2-45f9-a4df-4898a56befbe}"/>
-    <object class="ParameterCondition" id="{a868ec3d-b699-4ba5-9c26-4ee84a612b80}"/>
     <object class="ParameterCondition" id="{665fb199-cdf6-463d-958e-dea66e36f9ff}"/>
+    <object class="ParameterCondition" id="{a868ec3d-b699-4ba5-9c26-4ee84a612b80}"/>
     <object class="MixerBusFader" id="{ea04ab96-54a6-4777-b11b-70a946741011}"/>
     <object class="MixerSend" id="{73f5bd91-ef7b-4fa1-ad10-4a2d6c3440d3}"/>
     <object class="MixerBusFader" id="{fccb4552-2c71-49fe-8718-253d3d9687bf}"/>

@@ -100,6 +100,9 @@
         </property>
     </object>
     <object class="EventMixerMaster" id="{682dd258-6568-43ee-b4e5-d1883c837e6c}">
+        <property name="volume">
+            <value>-20</value>
+        </property>
         <relationship name="effectChain">
             <destination>{e9f08bf8-b71d-4561-b5d4-29c8b09b3f1d}</destination>
         </relationship>
@@ -134,9 +137,6 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{e38ccbca-d013-428c-8e69-7406c13d817f}">
-        <property name="volume">
-            <value>-6</value>
-        </property>
         <property name="name">
             <value>Symbol_Fade_In</value>
         </property>
@@ -168,9 +168,6 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{037e7751-e7d0-4cc1-bbe7-6324cb0639a0}">
-        <property name="volume">
-            <value>5</value>
-        </property>
         <property name="name">
             <value>Symbol_Fade_Out</value>
         </property>
@@ -188,14 +185,14 @@
         <property name="position">
             <value>8</value>
         </property>
+        <relationship name="destination">
+            <destination>{4a72b3d8-f299-427a-82cc-2658c2639a2d}</destination>
+        </relationship>
         <relationship name="timeline">
             <destination>{34b805dc-2e65-46e7-aaca-39e44d2a9adb}</destination>
         </relationship>
         <relationship name="markerTrack">
             <destination>{82ee5e7a-1e8c-4d22-be2f-a77206f02cec}</destination>
-        </relationship>
-        <relationship name="destination">
-            <destination>{4a72b3d8-f299-427a-82cc-2658c2639a2d}</destination>
         </relationship>
     </object>
     <object class="NamedMarker" id="{4a72b3d8-f299-427a-82cc-2658c2639a2d}">
@@ -219,6 +216,9 @@
         <property name="length">
             <value>1</value>
         </property>
+        <relationship name="triggerConditions">
+            <destination>{b2da6d03-168a-4e42-9f6b-e55d604e4880}</destination>
+        </relationship>
         <relationship name="timeline">
             <destination>{34b805dc-2e65-46e7-aaca-39e44d2a9adb}</destination>
         </relationship>
@@ -228,9 +228,6 @@
         <relationship name="destination">
             <destination>{020c76b6-9945-42c6-8961-b82c8f602c41}</destination>
         </relationship>
-        <relationship name="triggerConditions">
-            <destination>{b2da6d03-168a-4e42-9f6b-e55d604e4880}</destination>
-        </relationship>
     </object>
     <object class="TransitionRegion" id="{780db4e9-b33f-4519-99c4-5418cef18c66}">
         <property name="position">
@@ -239,6 +236,9 @@
         <property name="length">
             <value>1</value>
         </property>
+        <relationship name="triggerConditions">
+            <destination>{b73d7a0d-e65c-4c23-a6bf-49948f700ad7}</destination>
+        </relationship>
         <relationship name="timeline">
             <destination>{34b805dc-2e65-46e7-aaca-39e44d2a9adb}</destination>
         </relationship>
@@ -247,9 +247,6 @@
         </relationship>
         <relationship name="destination">
             <destination>{d55e2ffd-8025-4e9b-8364-89ba888e2ff7}</destination>
-        </relationship>
-        <relationship name="triggerConditions">
-            <destination>{b73d7a0d-e65c-4c23-a6bf-49948f700ad7}</destination>
         </relationship>
     </object>
     <object class="NamedMarker" id="{020c76b6-9945-42c6-8961-b82c8f602c41}">
@@ -355,7 +352,7 @@
             <value>0.99999994</value>
         </property>
         <property name="maximumDistance">
-            <value>5</value>
+            <value>7</value>
         </property>
     </object>
     <object class="MixerSend" id="{2a140671-1b6f-42aa-8a48-2ddb19ea90c6}">
