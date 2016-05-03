@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.08.00">
     <object class="AudioFile" id="{2f1828f7-3607-4cde-8112-0dd1c0937b91}">
         <property name="assetPath">
-            <value>Drag creak.wav</value>
+            <value>Creaks/Drag creak.wav</value>
         </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>

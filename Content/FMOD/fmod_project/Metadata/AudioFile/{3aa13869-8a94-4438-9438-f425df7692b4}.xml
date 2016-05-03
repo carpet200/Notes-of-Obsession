@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.08.00">
     <object class="AudioFile" id="{3aa13869-8a94-4438-9438-f425df7692b4}">
         <property name="assetPath">
-            <value>AMB_Creaks_3.wav</value>
+            <value>Creaks/AMB_Creaks_3.wav</value>
         </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>

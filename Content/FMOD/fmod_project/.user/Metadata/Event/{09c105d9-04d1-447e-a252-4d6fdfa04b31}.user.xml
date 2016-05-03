@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{09c105d9-04d1-447e-a252-4d6fdfa04b31}">
         <relationship name="selectables">
-            <destination>{b9125012-ebe7-4d36-bfca-4473dbeacb75}</destination>
+            <destination>{52ae0a7c-e5af-4cc0-aedd-9ac6072b1c46}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{393ccfcb-79bc-4196-9203-1626c3a77dfe}</destination>
@@ -12,13 +12,25 @@
     <object class="MixerInput" id="{a6bf393f-dd7b-46e3-8905-7d32d3b16882}"/>
     <object class="EventAutomatableProperties" id="{5ebbd1de-fba2-4e66-b526-a4bd55bbb984}"/>
     <object class="MarkerTrack" id="{8c41e48b-29d9-4d14-be9b-0ab5c6b54dd4}"/>
-    <object class="GroupTrack" id="{0e368244-c786-4288-b153-34af89ea265c}"/>
+    <object class="GroupTrack" id="{0e368244-c786-4288-b153-34af89ea265c}">
+        <property name="uiAutomationTracksVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="Timeline" id="{393ccfcb-79bc-4196-9203-1626c3a77dfe}">
         <property name="cursorPosition">
             <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.02382075471698113</value>
+        </property>
+    </object>
+    <object class="DistanceParameter" id="{fa3f6c60-de20-41bb-9958-21ee29247125}">
+        <property name="cursorPosition">
+            <value>9.3999996185302734</value>
+        </property>
+        <property name="uiLastRulerScaleRatio">
+            <value>0.0082034454470877767</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{376499a1-3954-46dc-bfb0-45ccfe852bc7}">
@@ -30,7 +42,7 @@
     <object class="MixerBusPanner" id="{383a63e2-63e5-45f4-aee6-a65d4ad5925f}"/>
     <object class="SingleSound" id="{2b843584-ffae-42c3-908a-9a71bee42fa8}"/>
     <object class="EventMixerGroup" id="{209f5055-1e34-4e6a-b206-67d92aa09591}"/>
-    <object class="LoopRegion" id="{de7eed4a-b063-4d64-b050-c65dd5729cfa}"/>
+    <object class="SustainPoint" id="{52ae0a7c-e5af-4cc0-aedd-9ac6072b1c46}"/>
     <object class="MixerBusEffectChain" id="{461378e1-a5a5-4656-85a3-30acf5d439f5}"/>
     <object class="MixerBusPanner" id="{4b592cab-5595-4509-ab00-ecd429e19f98}"/>
     <object class="MixerBusFader" id="{9fe14594-8c94-47ca-b764-bfe6195fd339}"/>
