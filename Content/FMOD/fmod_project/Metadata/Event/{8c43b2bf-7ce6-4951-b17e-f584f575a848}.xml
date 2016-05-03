@@ -194,7 +194,7 @@
     </object>
     <object class="EventMixerGroup" id="{a1e5aa39-752a-4f74-876d-a749d361269f}">
         <property name="volume">
-            <value>-5</value>
+            <value>-3</value>
         </property>
         <property name="name">
             <value>Bulb_Breaking</value>
@@ -234,7 +234,7 @@
     </object>
     <object class="EventMixerGroup" id="{23803c00-acef-433f-9015-654fe76204cd}">
         <property name="volume">
-            <value>-5</value>
+            <value>-3</value>
         </property>
         <property name="name">
             <value>Switch</value>
