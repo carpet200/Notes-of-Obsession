@@ -63,7 +63,7 @@
     <object class="MarkerTrack" id="{8c41e48b-29d9-4d14-be9b-0ab5c6b54dd4}"/>
     <object class="GroupTrack" id="{0e368244-c786-4288-b153-34af89ea265c}">
         <relationship name="modules">
-            <destination>{2b843584-ffae-42c3-908a-9a71bee42fa8}</destination>
+            <destination>{ebca4ec4-4d89-4ef3-bbbc-dbeae08c01ca}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{209f5055-1e34-4e6a-b206-67d92aa09591}</destination>
@@ -71,7 +71,7 @@
     </object>
     <object class="Timeline" id="{393ccfcb-79bc-4196-9203-1626c3a77dfe}">
         <relationship name="modules">
-            <destination>{2b843584-ffae-42c3-908a-9a71bee42fa8}</destination>
+            <destination>{ebca4ec4-4d89-4ef3-bbbc-dbeae08c01ca}</destination>
         </relationship>
         <relationship name="markers">
             <destination>{52ae0a7c-e5af-4cc0-aedd-9ac6072b1c46}</destination>
@@ -99,21 +99,21 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{383a63e2-63e5-45f4-aee6-a65d4ad5925f}"/>
-    <object class="SingleSound" id="{2b843584-ffae-42c3-908a-9a71bee42fa8}">
+    <object class="SingleSound" id="{ebca4ec4-4d89-4ef3-bbbc-dbeae08c01ca}">
         <property name="start">
             <value>0</value>
         </property>
         <property name="length">
-            <value>3.5</value>
+            <value>3</value>
         </property>
         <property name="looping">
             <value>true</value>
         </property>
         <relationship name="fadeOutCurve">
-            <destination>{1335be87-be8e-4c6a-8a8b-9ccee49f3626}</destination>
+            <destination>{e7884aae-fa7c-4147-9119-b90268a08949}</destination>
         </relationship>
         <relationship name="audioFile">
-            <destination>{1a65568c-64ce-45d9-a439-4c3a129075b5}</destination>
+            <destination>{c8535684-0e97-4ea2-a292-952aa2e3156d}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{209f5055-1e34-4e6a-b206-67d92aa09591}">
@@ -150,12 +150,12 @@
     </object>
     <object class="MixerBusPanner" id="{4b592cab-5595-4509-ab00-ecd429e19f98}"/>
     <object class="MixerBusFader" id="{9fe14594-8c94-47ca-b764-bfe6195fd339}"/>
-    <object class="FadeCurve" id="{1335be87-be8e-4c6a-8a8b-9ccee49f3626}">
+    <object class="FadeCurve" id="{e7884aae-fa7c-4147-9119-b90268a08949}">
         <relationship name="startPoint">
-            <destination>{76443196-f284-4b43-bd2b-f63729f6e5f1}</destination>
+            <destination>{2d849262-29af-423c-838d-fefffc5c6b2f}</destination>
         </relationship>
         <relationship name="endPoint">
-            <destination>{0e2611e4-4755-4c60-b757-9d4ed6656703}</destination>
+            <destination>{b48fdc38-ad7c-454a-b1ed-39bd98b316ee}</destination>
         </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{1c9caad2-94e5-4420-bba0-16319316eb82}">
@@ -170,7 +170,7 @@
             <value>3</value>
         </property>
         <property name="maximumDistance">
-            <value>11</value>
+            <value>10</value>
         </property>
     </object>
     <object class="MixerSend" id="{44a1c1ed-3fe2-4616-bf73-c8c6f3a3e27e}">
@@ -181,7 +181,7 @@
             <destination>{12c215c2-057d-4f88-bd9f-2b906f6537c3}</destination>
         </relationship>
     </object>
-    <object class="AutomationPoint" id="{76443196-f284-4b43-bd2b-f63729f6e5f1}">
+    <object class="AutomationPoint" id="{2d849262-29af-423c-838d-fefffc5c6b2f}">
         <property name="position">
             <value>1.5</value>
         </property>
@@ -189,12 +189,12 @@
             <value>1</value>
         </property>
         <property name="curveShape">
-            <value>-0.114459798</value>
+            <value>-1.00000048</value>
         </property>
     </object>
-    <object class="AutomationPoint" id="{0e2611e4-4755-4c60-b757-9d4ed6656703}">
+    <object class="AutomationPoint" id="{b48fdc38-ad7c-454a-b1ed-39bd98b316ee}">
         <property name="position">
-            <value>3.5</value>
+            <value>3</value>
         </property>
         <property name="value">
             <value>0</value>
