@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{49d5ef8d-863e-4cd4-8a9f-a4bc7713b282}">
-        <relationship name="selectables">
-            <destination>{d74e18cc-cc3d-46dc-89b8-efc4ceb393e5}</destination>
-        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{3bc64f93-f843-405c-9e48-82553becba0b}</destination>
         </relationship>
@@ -24,13 +21,10 @@
     </object>
     <object class="GameParameter" id="{3bc64f93-f843-405c-9e48-82553becba0b}">
         <property name="cursorPosition">
-            <value>0</value>
+            <value>49</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.036842105263157891</value>
-        </property>
-        <property name="uiLastHorizontalScrollBarValue">
-            <value>111</value>
         </property>
     </object>
     <object class="GameParameter" id="{131357e2-ba17-4065-a382-e9499d19d212}">
@@ -40,8 +34,13 @@
         <property name="uiLastRulerScaleRatio">
             <value>0.00082034454470877774</value>
         </property>
-        <property name="uiLastHorizontalScrollBarValue">
-            <value>581</value>
+    </object>
+    <object class="GameParameter" id="{a5620a4e-93b0-4dfa-869f-47f03e0af1fd}">
+        <property name="cursorPosition">
+            <value>0</value>
+        </property>
+        <property name="uiLastRulerScaleRatio">
+            <value>0.00082034454470877774</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{acdcee55-5618-4182-b3bc-f5224c8ec802}">
@@ -54,6 +53,8 @@
     <object class="AutomationTrack" id="{71ec6a06-925f-4ac0-a6e3-554d168944f9}"/>
     <object class="MixerBusEffectChain" id="{b47c2886-fd13-4e78-98dc-e0074c38353d}"/>
     <object class="MixerBusPanner" id="{8491b83b-cf42-45e8-a2eb-86d93ba2a2c5}"/>
+    <object class="AutomationTrack" id="{f5205c0c-4a83-4b50-b542-b6a9a0ea53c2}"/>
+    <object class="AutomationTrack" id="{3a9b28c0-faca-42b8-a958-a7f051d76689}"/>
     <object class="SingleSound" id="{3130bef0-ff4d-4702-9e83-cfc06aa0c50e}"/>
     <object class="SingleSound" id="{adb4898e-d75b-421c-b7a3-66d35457ca84}"/>
     <object class="SingleSound" id="{23c5dbe4-99cc-4c5a-b445-bd81336e2955}"/>
@@ -118,5 +119,7 @@
     <object class="MixerSend" id="{d8b984b4-7d9d-4095-b4e4-145ea48b6a6f}"/>
     <object class="LowpassEffect" id="{bc09c587-c139-47c6-89af-0153dc9e44b1}"/>
     <object class="MixerBusFader" id="{390efd26-c56e-4e17-be4e-b4645dcfa5ae}"/>
+    <object class="FlangerEffect" id="{47f42e4e-48f1-434d-85c6-0d5b4168c546}"/>
+    <object class="ChorusEffect" id="{1f7eed03-c21a-4db2-b074-e03714e93b62}"/>
     <object class="MixerBusFader" id="{fad255b4-7d52-4667-996f-69a80d74b8df}"/>
 </objects>

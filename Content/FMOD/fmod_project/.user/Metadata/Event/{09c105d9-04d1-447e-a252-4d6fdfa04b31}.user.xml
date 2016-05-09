@@ -27,7 +27,7 @@
     </object>
     <object class="DistanceParameter" id="{fa3f6c60-de20-41bb-9958-21ee29247125}">
         <property name="cursorPosition">
-            <value>0.1450200229883194</value>
+            <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0082034454470877767</value>
