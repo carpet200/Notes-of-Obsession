@@ -109,6 +109,7 @@
             <destination>{62243844-5260-4549-8559-43eea71980a4}</destination>
             <destination>{1fb1335d-974c-4ca2-b697-51b2d6514982}</destination>
             <destination>{2727300e-5fb7-41d2-825f-c15920ce176c}</destination>
+            <destination>{e27670a3-a4e8-434d-b7bc-28e058ce1a76}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{7df60103-fa7d-46da-b7da-9c633231c779}">
@@ -154,6 +155,11 @@
     <object class="SingleSound" id="{2727300e-5fb7-41d2-825f-c15920ce176c}">
         <relationship name="audioFile">
             <destination>{de4a340f-0947-43b5-a877-1c46c7d00483}</destination>
+        </relationship>
+    </object>
+    <object class="SingleSound" id="{e27670a3-a4e8-434d-b7bc-28e058ce1a76}">
+        <relationship name="audioFile">
+            <destination>{27c41b5a-205b-4703-83ae-da9bfbdb4b5b}</destination>
         </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{ea6d9400-6d00-47a0-8088-1de50fa6255f}">
