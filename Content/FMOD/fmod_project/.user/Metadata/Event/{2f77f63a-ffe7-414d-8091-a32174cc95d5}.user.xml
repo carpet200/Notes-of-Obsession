@@ -21,19 +21,13 @@
         <property name="uiLastRulerScaleRatio">
             <value>0.010380530973451325</value>
         </property>
-        <property name="uiLastHorizontalScrollBarValue">
-            <value>410</value>
-        </property>
     </object>
     <object class="GameParameter" id="{120c9039-c6f3-47dc-b9c7-5fd8f3baf273}">
         <property name="cursorPosition">
-            <value>3.0846784126244366</value>
+            <value>2.2662943439689736</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0069947356295338697</value>
-        </property>
-        <property name="uiLastHorizontalScrollBarValue">
-            <value>181</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{6f995fca-bd3f-4dfd-97e7-e0fba1c36236}">
@@ -51,6 +45,9 @@
     </object>
     <object class="MultiSound" id="{93cf67c9-ea1c-498d-be18-1bed99896fad}">
         <property name="uiModulationDrawerVisible">
+            <value>true</value>
+        </property>
+        <property name="uiTriggerBehaviorDrawerVisible">
             <value>true</value>
         </property>
     </object>
@@ -98,10 +95,10 @@
     <object class="SingleSound" id="{a09db7ce-8b60-4c81-8c93-7509a5c88503}"/>
     <object class="SingleSound" id="{bc789c1c-cecf-4c2a-8306-d37cb5f9eb01}"/>
     <object class="RandomizerModulator" id="{d5fb6bcd-0585-412d-9e31-39612f6bcd5d}"/>
-    <object class="SingleSound" id="{1261d336-d26a-42ce-ac53-f957f0112637}"/>
-    <object class="SingleSound" id="{a006b826-0eaf-4a0e-84c7-7a3f67942dec}"/>
-    <object class="SingleSound" id="{be511691-af2a-431c-bdfc-bcf17156830e}"/>
-    <object class="SingleSound" id="{98543c69-3f87-4c8b-aaed-7ba13d35dd6d}"/>
+    <object class="SingleSound" id="{38551794-ac39-4367-971d-ba827a37d776}"/>
+    <object class="SingleSound" id="{24c37a90-1094-4565-923f-ee6b14b05bfd}"/>
+    <object class="SingleSound" id="{8c64d5f0-4dfb-4715-ace2-e5bf2b4750bd}"/>
+    <object class="SingleSound" id="{dfc86429-276c-481f-ba68-6deecc6351e1}"/>
     <object class="RandomizerModulator" id="{df6ff80e-8457-4497-b718-bc3b6abd2327}"/>
     <object class="SingleSound" id="{9ba76793-b732-4da5-a8b9-e82a71f8207e}"/>
     <object class="SingleSound" id="{ab07203c-4c0b-49e4-8a40-48f7fcfd449f}"/>
