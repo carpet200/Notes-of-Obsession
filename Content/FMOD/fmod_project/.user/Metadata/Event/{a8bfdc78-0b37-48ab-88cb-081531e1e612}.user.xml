@@ -22,7 +22,7 @@
             <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.0018867924528301885</value>
+            <value>0.0006226415094339623</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{8352dca1-3ca6-4097-b0d9-bfe9ce08f2fc}">
@@ -41,9 +41,9 @@
     <object class="MixerBusEffectChain" id="{911e11b6-0a3a-4aaf-b7d2-dbff3e9bc88f}"/>
     <object class="MixerBusPanner" id="{8c9293e1-ff22-45ef-9e41-ef269934bb4f}"/>
     <object class="MixerBusFader" id="{9b795624-7b1b-4170-8fb0-452ff2920aff}"/>
-    <object class="SingleSound" id="{3fe636fe-7e18-4486-9fef-3f878dc8b29b}"/>
-    <object class="SingleSound" id="{554a4d77-06ec-4fec-8dd4-ef947b5c18a5}"/>
-    <object class="SingleSound" id="{6dec3b4c-149b-45b3-a971-4a039b4bdbeb}"/>
+    <object class="SingleSound" id="{67364644-9c3c-4533-9a68-d2e7fb0fa281}"/>
+    <object class="SingleSound" id="{2c75935a-8ebc-494b-add7-e720dabcbc38}"/>
+    <object class="SingleSound" id="{433e6bef-d0a1-44b5-8e1b-1a80180981c1}"/>
     <object class="MixerBusEffectChain" id="{d9558e4c-e3ae-4710-8f72-eb3915d1d54f}"/>
     <object class="MixerBusPanner" id="{0634e7c9-b4d7-4504-8190-80594be68dc7}"/>
     <object class="MixerBusFader" id="{76b3b5ab-4ad2-4dc5-90e3-c78a15a4f4f6}"/>
