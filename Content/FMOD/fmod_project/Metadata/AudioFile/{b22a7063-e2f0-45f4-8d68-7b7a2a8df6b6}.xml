@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.08.00">
     <object class="AudioFile" id="{b22a7063-e2f0-45f4-8d68-7b7a2a8df6b6}">
         <property name="assetPath">
-            <value>Darkness/SE_Metal_Impact</value>
+            <value>Darkness/SE_Metal_Curtain</value>
         </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
