@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
-    <object class="AudioFile" id="{64648ecf-701f-4aeb-97a5-852fb9072168}">
+    <object class="AudioFile" id="{a10b3fcf-b3ba-480f-9e65-de654c9b836e}">
         <property name="assetPath">
-            <value>rain.wav</value>
+            <value>Player_Knockout/SE_Monster_Hit_Head_0.wav</value>
         </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
         <property name="channelCount">
-            <value>2</value>
+            <value>1</value>
         </property>
         <property name="length">
-            <value>10</value>
+            <value>0.13712018140589569</value>
         </property>
         <relationship name="masterAssetFolder">
             <destination>{44928556-1cfe-4131-a1d1-db551eee9f62}</destination>

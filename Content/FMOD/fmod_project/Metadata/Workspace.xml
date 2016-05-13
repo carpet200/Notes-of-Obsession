@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.08.00">
     <object class="Workspace" id="{163696b3-a4cc-40b8-a318-c45e5a765505}">
         <property name="builtBanksOutputDirectory">
-            <value>../</value>
+            <value>..</value>
         </property>
         <relationship name="masterEventFolder">
             <destination>{3924db15-fd57-46d9-86b3-73444350dd19}</destination>
@@ -34,7 +34,7 @@
             <value>Desktop</value>
         </property>
         <property name="speakerFormat">
-            <value>6</value>
+            <value>3</value>
         </property>
     </object>
 </objects>
