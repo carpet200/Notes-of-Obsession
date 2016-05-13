@@ -24,7 +24,7 @@
     </object>
     <object class="GameParameter" id="{120c9039-c6f3-47dc-b9c7-5fd8f3baf273}">
         <property name="cursorPosition">
-            <value>2.2662943439689736</value>
+            <value>1.5388418384974514</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0069947356295338697</value>
@@ -95,10 +95,10 @@
     <object class="SingleSound" id="{a09db7ce-8b60-4c81-8c93-7509a5c88503}"/>
     <object class="SingleSound" id="{bc789c1c-cecf-4c2a-8306-d37cb5f9eb01}"/>
     <object class="RandomizerModulator" id="{d5fb6bcd-0585-412d-9e31-39612f6bcd5d}"/>
-    <object class="SingleSound" id="{38551794-ac39-4367-971d-ba827a37d776}"/>
-    <object class="SingleSound" id="{24c37a90-1094-4565-923f-ee6b14b05bfd}"/>
-    <object class="SingleSound" id="{8c64d5f0-4dfb-4715-ace2-e5bf2b4750bd}"/>
-    <object class="SingleSound" id="{dfc86429-276c-481f-ba68-6deecc6351e1}"/>
+    <object class="SingleSound" id="{03f08833-3e59-499d-89ae-5d55cb553708}"/>
+    <object class="SingleSound" id="{5a3daee9-472a-4b17-b57c-72e756b98e91}"/>
+    <object class="SingleSound" id="{c0b271d6-29ba-4f15-b099-fb814aa6fa66}"/>
+    <object class="SingleSound" id="{713370b6-27bb-4f6e-85c1-09d6f45b07d8}"/>
     <object class="RandomizerModulator" id="{df6ff80e-8457-4497-b718-bc3b6abd2327}"/>
     <object class="SingleSound" id="{9ba76793-b732-4da5-a8b9-e82a71f8207e}"/>
     <object class="SingleSound" id="{ab07203c-4c0b-49e4-8a40-48f7fcfd449f}"/>

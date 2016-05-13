@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.08.00">
     <object class="AudioFile" id="{d375c7fb-4dba-481a-b376-e6a6ac53498f}">
         <property name="assetPath">
-            <value>darkness_trigger_whisp.wav</value>
+            <value>Darkness/darkness_trigger_whisp.wav</value>
         </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>

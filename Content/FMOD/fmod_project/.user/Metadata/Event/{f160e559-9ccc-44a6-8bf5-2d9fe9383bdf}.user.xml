@@ -13,29 +13,48 @@
     <object class="EventAutomatableProperties" id="{f80d091a-b547-4f4b-b732-ce97b78b1571}"/>
     <object class="MarkerTrack" id="{16db1b9b-748b-4dd7-822e-4f3bc1d36ad9}"/>
     <object class="GroupTrack" id="{9eadc59c-0769-4306-b117-805f6b43d3a4}"/>
+    <object class="GroupTrack" id="{09c6162d-17da-4a79-8d7a-2a8a21ff2f3d}"/>
+    <object class="GroupTrack" id="{71d284e5-bde3-4cc0-a6e4-7ccb922b1651}"/>
     <object class="Timeline" id="{f843942a-be92-4f5d-bae5-3479895ebd60}">
         <property name="cursorPosition">
-            <value>0</value>
+            <value>3.5231132075471692</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.003773584905660377</value>
+            <value>0.0072641509433962253</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{fabb564e-0917-4389-96c2-230540b5468c}">
         <relationship name="input">
             <destination>{2ec3c642-9d2a-4368-9163-ad0b48fb5420}</destination>
+            <destination>{25f4a140-a43a-4dd3-86c8-32270ea7fe63}</destination>
+            <destination>{130e3d77-5ded-4845-8493-31628d100cd1}</destination>
         </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{672cda15-a1d0-44f3-a837-044d5a0ff7c1}"/>
     <object class="MixerBusPanner" id="{26178b8d-95ba-4768-8e8c-5375321eca26}"/>
     <object class="SingleSound" id="{9bfb02a2-8d1b-4838-9c9b-7f3e966eacb2}"/>
     <object class="EventMixerGroup" id="{2ec3c642-9d2a-4368-9163-ad0b48fb5420}"/>
+    <object class="SingleSound" id="{4c3f2eb3-02e9-49bb-b011-235e62bbd812}"/>
+    <object class="EventMixerGroup" id="{25f4a140-a43a-4dd3-86c8-32270ea7fe63}"/>
+    <object class="SingleSound" id="{c4120d3d-d942-4cea-b363-a9e564490729}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="EventMixerGroup" id="{130e3d77-5ded-4845-8493-31628d100cd1}"/>
     <object class="MixerBusEffectChain" id="{81514671-f590-41f4-9639-b76f56c1d474}"/>
     <object class="MixerBusPanner" id="{ea2a6172-30c4-4f67-b6b5-fb919278d9e5}"/>
     <object class="MixerBusFader" id="{ed3e2f84-3926-479f-8cf5-1f131a9384eb}"/>
     <object class="MixerBusEffectChain" id="{3b897637-2ec0-4e36-9ec1-9e39fe237b05}"/>
     <object class="MixerBusPanner" id="{0451e61a-d797-48bc-b70c-bc5c5ae548d2}"/>
+    <object class="MixerBusEffectChain" id="{5e6d2281-4f86-41b6-888c-0ec06a4a124a}"/>
+    <object class="MixerBusPanner" id="{79fc4fa7-5576-4bdc-a2f5-d0cdfc34d0da}"/>
+    <object class="MixerBusEffectChain" id="{ecc74b4d-a423-40b7-9d58-8f745b78c6d2}"/>
+    <object class="MixerBusPanner" id="{d06326d8-7763-47c4-b08b-76c6dc022d7f}"/>
     <object class="MixerBusFader" id="{5fe7dd33-9e74-4b26-bf4f-7ac54c039680}"/>
     <object class="MixerSend" id="{c8e6ef25-3724-4653-883a-2367a927c621}"/>
     <object class="MixerBusFader" id="{f1282a86-4137-4c5b-9191-3429245a03fc}"/>
+    <object class="MixerBusFader" id="{8129a8a9-943b-4e12-873e-30ee8b607219}"/>
+    <object class="MixerBusFader" id="{e791b696-fdeb-46eb-b160-f963ff1ece74}"/>
+    <object class="SFXReverbEffect" id="{d984a786-8695-477d-bef0-3d449aa21409}"/>
 </objects>
