@@ -28,11 +28,17 @@
     </object>
     <object class="MixerBusEffectChain" id="{af1b2bb8-139e-4c64-b61a-cb41405b957a}"/>
     <object class="MixerBusPanner" id="{53497da5-fe56-4635-a253-81fd31e0c660}"/>
-    <object class="MultiSound" id="{f5bbc6c9-cf75-42c5-bd89-e1337676b4fb}"/>
+    <object class="MultiSound" id="{f5bbc6c9-cf75-42c5-bd89-e1337676b4fb}">
+        <property name="uiModulationDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="EventMixerGroup" id="{ea6c0849-fb20-47e0-ad5c-ddf044fe1130}"/>
     <object class="MixerBusEffectChain" id="{63368fe5-345c-4021-bfb6-eecbb11c0d2e}"/>
     <object class="MixerBusPanner" id="{d579025b-e3ca-4ac9-b03b-3f7f91b9170d}"/>
     <object class="MixerBusFader" id="{ad65c1fe-0572-470e-bf1f-85cf4a79fe73}"/>
+    <object class="RandomizerModulator" id="{20eac7e3-396e-42a0-b836-d64690b7ca3b}"/>
+    <object class="RandomizerModulator" id="{bf3a60f7-8aae-4eb5-960b-0a84502fd2be}"/>
     <object class="SingleSound" id="{300459eb-a17c-4ebe-b62f-e4178ab4de64}"/>
     <object class="SingleSound" id="{4fc11b38-15f1-486e-8453-0e4438aea64c}"/>
     <object class="SingleSound" id="{9b90a6c7-c5e4-4149-b591-55faecefa710}"/>
