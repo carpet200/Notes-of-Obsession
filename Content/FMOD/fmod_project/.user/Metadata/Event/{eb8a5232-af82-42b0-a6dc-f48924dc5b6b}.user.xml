@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{eb8a5232-af82-42b0-a6dc-f48924dc5b6b}">
-        <relationship name="selectables">
-            <destination>{a19c64ac-26e8-4ddd-9cc5-4e8f38531f56}</destination>
-        </relationship>
         <relationship name="uiLastParameterSelection">
-            <destination>{093851dd-d559-4c2f-8a20-f7312e0153a5}</destination>
+            <destination>{d4712c4c-c967-41dc-a156-488c58bf1684}</destination>
         </relationship>
     </object>
-    <object class="MasterTrack" id="{ba76f55f-aa9e-48fa-a02e-927f24e1657e}">
-        <property name="uiAutomationTracksVisible">
-            <value>true</value>
-        </property>
-    </object>
+    <object class="MasterTrack" id="{ba76f55f-aa9e-48fa-a02e-927f24e1657e}"/>
     <object class="MixerInput" id="{8673019c-e11f-40a3-9f7c-e61d711ba683}"/>
     <object class="EventAutomatableProperties" id="{ac1beb68-bd6d-406a-b1de-ef37ebed52b3}"/>
     <object class="MarkerTrack" id="{ebf0528a-de47-4938-9d4d-71af86a51b94}"/>
@@ -20,6 +13,9 @@
     <object class="GroupTrack" id="{a19c64ac-26e8-4ddd-9cc5-4e8f38531f56}"/>
     <object class="GroupTrack" id="{6a243505-f28b-4eb8-9f0b-1c88e8fe467d}"/>
     <object class="Timeline" id="{093851dd-d559-4c2f-8a20-f7312e0153a5}">
+        <property name="cursorPosition">
+            <value>0.91320754716981123</value>
+        </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.020754716981132074</value>
         </property>
@@ -34,7 +30,7 @@
     </object>
     <object class="DistanceParameter" id="{d4712c4c-c967-41dc-a156-488c58bf1684}">
         <property name="cursorPosition">
-            <value>19.999996185302734</value>
+            <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.016406890894175553</value>
@@ -42,7 +38,7 @@
     </object>
     <object class="ElevationParameter" id="{bfb0b6fa-9f4d-4997-bec2-cb652ef64e0e}">
         <property name="cursorPosition">
-            <value>10.853157997131348</value>
+            <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.14766201804757997</value>

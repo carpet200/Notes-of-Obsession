@@ -182,7 +182,7 @@ Consisting of a large/small rocking sound depending on the parameter Larger_Rock
     </object>
     <object class="EventMixerGroup" id="{50449525-b59b-4167-9c8e-a4e9dcb94351}">
         <property name="volume">
-            <value>-20</value>
+            <value>-19.5</value>
         </property>
         <property name="name">
             <value>Squeak</value>
