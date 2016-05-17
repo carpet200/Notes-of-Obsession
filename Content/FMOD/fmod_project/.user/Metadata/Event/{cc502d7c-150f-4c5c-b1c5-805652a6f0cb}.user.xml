@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{cc502d7c-150f-4c5c-b1c5-805652a6f0cb}">
-        <relationship name="selectables">
-            <destination>{a41e0782-3af6-4c32-8a27-7bb9710a4dad}</destination>
-        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{82b52654-da62-459d-af99-77d36b17a94b}</destination>
         </relationship>
@@ -25,14 +22,6 @@
             <value>0.0014150943396226414</value>
         </property>
     </object>
-    <object class="GameParameter" id="{7c2571e3-b18b-413f-8d14-4c86ff0aa099}">
-        <property name="cursorPosition">
-            <value>0</value>
-        </property>
-        <property name="uiLastRulerScaleRatio">
-            <value>0.0082034454470877767</value>
-        </property>
-    </object>
     <object class="EventMixerMaster" id="{72893c88-1b58-4cc3-9399-7809df8f05b2}">
         <relationship name="input">
             <destination>{ccd9beb4-04a3-4240-9693-268900a5979c}</destination>
@@ -52,6 +41,7 @@
     <object class="MixerBusFader" id="{e53774ab-783a-49f6-a77c-4ffd9c3af380}"/>
     <object class="MixerSend" id="{6b9352f8-1c39-4622-85b0-a7e11df146e6}"/>
     <object class="PluginEffect" id="{ea062181-d581-4677-b5be-5573f96ecdae}"/>
+    <object class="SpatialiserEffect" id="{c782882c-b55e-461b-946b-9ece3487514e}"/>
     <object class="MixerBusFader" id="{7c528f9b-e32b-44ae-8684-46473d7c854d}"/>
     <object class="FloatPluginParameter" id="{d4a86c38-b925-4a90-bc3a-ccf4c3a947b8}"/>
 </objects>
