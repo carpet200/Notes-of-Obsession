@@ -24,6 +24,7 @@
         </relationship>
         <relationship name="groupTracks">
             <destination>{55b67ad0-1b77-4eb3-81e2-6016967e220b}</destination>
+            <destination>{96726bf1-53af-40f7-beb0-c47120bbc9dd}</destination>
         </relationship>
         <relationship name="timeline">
             <destination>{82b52654-da62-459d-af99-77d36b17a94b}</destination>
@@ -69,9 +70,18 @@
             <destination>{ccd9beb4-04a3-4240-9693-268900a5979c}</destination>
         </relationship>
     </object>
+    <object class="GroupTrack" id="{96726bf1-53af-40f7-beb0-c47120bbc9dd}">
+        <relationship name="modules">
+            <destination>{7b0db928-9749-44c0-8d9f-e1b10b6c8b6c}</destination>
+        </relationship>
+        <relationship name="mixerGroup">
+            <destination>{95a99e36-d72b-40c1-b546-3cb3696dd9c9}</destination>
+        </relationship>
+    </object>
     <object class="Timeline" id="{82b52654-da62-459d-af99-77d36b17a94b}">
         <relationship name="modules">
             <destination>{a41e0782-3af6-4c32-8a27-7bb9710a4dad}</destination>
+            <destination>{7b0db928-9749-44c0-8d9f-e1b10b6c8b6c}</destination>
         </relationship>
         <relationship name="markers">
             <destination>{4a6d1018-8a8e-49a0-875a-a8fafc6b6aad}</destination>
@@ -121,7 +131,7 @@
     </object>
     <object class="EventMixerGroup" id="{ccd9beb4-04a3-4240-9693-268900a5979c}">
         <property name="volume">
-            <value>-20</value>
+            <value>-19</value>
         </property>
         <property name="name">
             <value>Audio 1</value>
@@ -131,6 +141,34 @@
         </relationship>
         <relationship name="panner">
             <destination>{739b8a06-2597-4e69-9d79-e68ec4014902}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{72893c88-1b58-4cc3-9399-7809df8f05b2}</destination>
+        </relationship>
+    </object>
+    <object class="SingleSound" id="{7b0db928-9749-44c0-8d9f-e1b10b6c8b6c}">
+        <property name="start">
+            <value>0.46000000000000002</value>
+        </property>
+        <property name="length">
+            <value>0.10000000000000001</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
+        </property>
+        <relationship name="audioFile">
+            <destination>{1decddff-4e75-4113-8c46-e413f75afef5}</destination>
+        </relationship>
+    </object>
+    <object class="EventMixerGroup" id="{95a99e36-d72b-40c1-b546-3cb3696dd9c9}">
+        <property name="name">
+            <value>Audio 2</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{ab48cd26-a209-4d04-8d03-751321673d12}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{75492759-acd2-4c15-b0b4-05172c4cccd4}</destination>
         </relationship>
         <relationship name="output">
             <destination>{72893c88-1b58-4cc3-9399-7809df8f05b2}</destination>
@@ -171,6 +209,12 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{739b8a06-2597-4e69-9d79-e68ec4014902}"/>
+    <object class="MixerBusEffectChain" id="{ab48cd26-a209-4d04-8d03-751321673d12}">
+        <relationship name="effects">
+            <destination>{86ad3daf-9ca7-4063-95eb-e1498faa342b}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{75492759-acd2-4c15-b0b4-05172c4cccd4}"/>
     <object class="MixerBusFader" id="{e53774ab-783a-49f6-a77c-4ffd9c3af380}"/>
     <object class="MixerSend" id="{6b9352f8-1c39-4622-85b0-a7e11df146e6}">
         <property name="inputFormat">
@@ -219,6 +263,7 @@
         </property>
     </object>
     <object class="MixerBusFader" id="{7c528f9b-e32b-44ae-8684-46473d7c854d}"/>
+    <object class="MixerBusFader" id="{86ad3daf-9ca7-4063-95eb-e1498faa342b}"/>
     <object class="Plugin" id="{d8523ad5-500f-4171-8a08-5cca3acf9d76}">
         <property name="identifier">
             <value>FMOD Lowpass Simple</value>

@@ -32,7 +32,7 @@
             <destination>{c2b19aa5-23d7-4bc3-81cc-7799979aef39}</destination>
         </relationship>
         <relationship name="folder">
-            <destination>{ea9d2a94-c485-45bf-882c-a9dc24573b7d}</destination>
+            <destination>{e676bcba-abbe-4263-a1ea-fa222038e927}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{a11beed8-61db-4edf-94d8-29c4ec9f9029}">
