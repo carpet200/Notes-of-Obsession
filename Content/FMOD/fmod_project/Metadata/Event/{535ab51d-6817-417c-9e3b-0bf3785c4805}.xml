@@ -121,6 +121,7 @@
             <destination>{03a9d398-1a9c-4087-a1a2-996990c55cde}</destination>
             <destination>{a0c783bf-532a-452f-bb73-51b3c60ff1ce}</destination>
             <destination>{ae132d27-716c-4143-a4d7-5b030df8f322}</destination>
+            <destination>{9a6096af-b24c-41db-9453-641631a8d3b4}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{85519ed1-bd2d-45d6-94c5-897efbe62644}"/>
@@ -141,5 +142,38 @@
             <destination>{12c215c2-057d-4f88-bd9f-2b906f6537c3}</destination>
         </relationship>
     </object>
+    <object class="PluginEffect" id="{9a6096af-b24c-41db-9453-641631a8d3b4}">
+        <relationship name="plugin">
+            <destination>{6b7571cf-6c3f-4a8a-b8c4-bb9822163040}</destination>
+        </relationship>
+    </object>
     <object class="MixerBusFader" id="{c1b18a40-5e7c-4a89-99b7-47e09bfa036b}"/>
+    <object class="Plugin" id="{6b7571cf-6c3f-4a8a-b8c4-bb9822163040}">
+        <property name="identifier">
+            <value>FMOD Lowpass Simple</value>
+        </property>
+        <property name="uiName">
+            <value>Lowpass Simple</value>
+        </property>
+        <relationship name="pluginParameters">
+            <destination>{cf081e44-84dc-467a-9d88-8149b7c2cb9e}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{cf081e44-84dc-467a-9d88-8149b7c2cb9e}">
+        <property name="name">
+            <value>Cutoff freq</value>
+        </property>
+        <property name="units">
+            <value>hz</value>
+        </property>
+        <property name="curve">
+            <value>LinearPiecewiseCurveStrategy{(0.000000,10.000000)(1.000000,100.000000)(2.000000,400.000000)(3.000000,750.000000)(4.000000,1250.000000)(5.000000,2000.000000)(6.000000,3200.000000)(7.000000,5500.000000)(8.000000,10000.000000)(9.000000,18000.000000)(10.000000,22000.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>5000</value>
+        </property>
+        <property name="value">
+            <value>22000</value>
+        </property>
+    </object>
 </objects>
