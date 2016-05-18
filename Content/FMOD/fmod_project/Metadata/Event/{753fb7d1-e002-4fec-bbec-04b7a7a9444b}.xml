@@ -110,8 +110,13 @@
     </object>
     <object class="Timeline" id="{5db7f24f-22ec-4437-8669-6fe9bef74f9a}">
         <relationship name="markers">
+<<<<<<< HEAD
             <destination>{422d852b-d297-47ab-abeb-7a89b55b7063}</destination>
             <destination>{3710076d-ebd2-47fa-8c8b-b6d9ca37e0d2}</destination>
+=======
+            <destination>{3710076d-ebd2-47fa-8c8b-b6d9ca37e0d2}</destination>
+            <destination>{422d852b-d297-47ab-abeb-7a89b55b7063}</destination>
+>>>>>>> NotesofobsessionSSH/master
         </relationship>
     </object>
     <object class="GameParameter" id="{551eab19-f4fa-441d-846f-074c02357048}">
@@ -121,8 +126,11 @@
         <property name="maximum">
             <value>5</value>
         </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
         <property name="seekSpeed">
-            <value>1.8999998569488525</value>
+            <value>0.29999998211860657</value>
         </property>
         <relationship name="modules">
             <destination>{30fd75d3-52fa-4908-a76a-4c01cdda9f8e}</destination>
@@ -139,7 +147,7 @@
             <value>5</value>
         </property>
         <property name="initialValue">
-            <value>1.5</value>
+            <value>1.3499999046325684</value>
         </property>
         <property name="seekSpeed">
             <value>24</value>
@@ -401,12 +409,18 @@
             <destination>{7ef5c17c-779c-4c89-9d66-6efb87e7d800}</destination>
         </relationship>
     </object>
+<<<<<<< HEAD
     <object class="LoopRegion" id="{422d852b-d297-47ab-abeb-7a89b55b7063}">
         <property name="position">
             <value>0</value>
         </property>
         <property name="length">
             <value>5.6000000000000005</value>
+=======
+    <object class="SustainPoint" id="{3710076d-ebd2-47fa-8c8b-b6d9ca37e0d2}">
+        <property name="position">
+            <value>8.2000000000000011</value>
+>>>>>>> NotesofobsessionSSH/master
         </property>
         <relationship name="timeline">
             <destination>{5db7f24f-22ec-4437-8669-6fe9bef74f9a}</destination>
@@ -415,9 +429,18 @@
             <destination>{6cda5c4e-4e0a-47f2-aeb5-e82ff05303fc}</destination>
         </relationship>
     </object>
+<<<<<<< HEAD
     <object class="SustainPoint" id="{3710076d-ebd2-47fa-8c8b-b6d9ca37e0d2}">
         <property name="position">
             <value>8.2000000000000011</value>
+=======
+    <object class="LoopRegion" id="{422d852b-d297-47ab-abeb-7a89b55b7063}">
+        <property name="position">
+            <value>0</value>
+        </property>
+        <property name="length">
+            <value>5.6000000000000005</value>
+>>>>>>> NotesofobsessionSSH/master
         </property>
         <relationship name="timeline">
             <destination>{5db7f24f-22ec-4437-8669-6fe9bef74f9a}</destination>

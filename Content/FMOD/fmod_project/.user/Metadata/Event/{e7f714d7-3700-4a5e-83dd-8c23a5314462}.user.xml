@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
+<<<<<<< HEAD
     <object class="Event" id="{e7f714d7-3700-4a5e-83dd-8c23a5314462}">
         <relationship name="selectables">
             <destination>{891ec02e-366f-4b7b-82f2-3cf602922ff9}</destination>
@@ -8,6 +9,9 @@
             <destination>{0a095eb3-437a-4b00-896d-22a663a3451c}</destination>
         </relationship>
     </object>
+=======
+    <object class="Event" id="{e7f714d7-3700-4a5e-83dd-8c23a5314462}"/>
+>>>>>>> NotesofobsessionSSH/master
     <object class="MasterTrack" id="{16c885ae-b202-487f-a1c2-b6346d69cb4c}"/>
     <object class="MixerInput" id="{dded586d-cd78-4a5d-9aeb-de415eeb8ef1}"/>
     <object class="EventAutomatableProperties" id="{e33e5ead-3267-4f0f-a871-d73a30d0a9d8}"/>
