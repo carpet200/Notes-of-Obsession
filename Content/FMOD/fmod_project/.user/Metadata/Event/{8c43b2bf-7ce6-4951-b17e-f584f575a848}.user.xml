@@ -40,7 +40,11 @@
             <value>0.00082034454470877774</value>
         </property>
         <property name="uiLastHorizontalScrollBarValue">
+<<<<<<< HEAD
+            <value>579</value>
+=======
             <value>581</value>
+>>>>>>> NotesofobsessionSSH/master
         </property>
     </object>
     <object class="GameParameter" id="{48e69b6b-8170-46c6-81a4-b6a7b9ee3892}">
