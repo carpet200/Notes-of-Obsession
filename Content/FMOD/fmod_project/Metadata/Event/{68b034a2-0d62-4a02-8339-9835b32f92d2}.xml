@@ -127,7 +127,7 @@
     </object>
     <object class="EventMixerGroup" id="{199f6aca-b962-4353-85e2-7494420ee6a4}">
         <property name="volume">
-            <value>5</value>
+            <value>3</value>
         </property>
         <property name="name">
             <value>Punch</value>
@@ -173,7 +173,7 @@
     </object>
     <object class="MultiSound" id="{b3ad5c51-cd31-45b5-aa1e-ba9f2bb076df}">
         <property name="start">
-            <value>0.050000000000000003</value>
+            <value>0.029999999999999999</value>
         </property>
         <property name="length">
             <value>0.54036281179138324</value>
@@ -186,7 +186,7 @@
     </object>
     <object class="EventMixerGroup" id="{ed6c250f-0085-460f-9237-0815a2b69309}">
         <property name="volume">
-            <value>5</value>
+            <value>3</value>
         </property>
         <property name="name">
             <value>Splash</value>

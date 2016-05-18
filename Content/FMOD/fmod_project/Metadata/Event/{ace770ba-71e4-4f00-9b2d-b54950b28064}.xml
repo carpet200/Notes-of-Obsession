@@ -123,13 +123,10 @@
         <property name="length">
             <value>5</value>
         </property>
-<<<<<<< HEAD
-=======
         <relationship name="modulators">
             <destination>{20eac7e3-396e-42a0-b836-d64690b7ca3b}</destination>
             <destination>{bf3a60f7-8aae-4eb5-960b-0a84502fd2be}</destination>
         </relationship>
->>>>>>> NotesofobsessionSSH/master
         <relationship name="sounds">
             <destination>{ccffee15-5c10-4501-98e8-5dc5cbb175c5}</destination>
             <destination>{c601aa46-4a1b-4d06-9684-1cfa066d5958}</destination>
@@ -168,8 +165,6 @@
     </object>
     <object class="MixerBusPanner" id="{d579025b-e3ca-4ac9-b03b-3f7f91b9170d}"/>
     <object class="MixerBusFader" id="{ad65c1fe-0572-470e-bf1f-85cf4a79fe73}"/>
-<<<<<<< HEAD
-=======
     <object class="RandomizerModulator" id="{20eac7e3-396e-42a0-b836-d64690b7ca3b}">
         <property name="nameOfPropertyBeingModulated">
             <value>pitch</value>
@@ -186,12 +181,7 @@
             <value>1</value>
         </property>
     </object>
-<<<<<<< HEAD
     <object class="SingleSound" id="{ccffee15-5c10-4501-98e8-5dc5cbb175c5}">
-=======
->>>>>>> NotesofobsessionSSH/master
-    <object class="SingleSound" id="{300459eb-a17c-4ebe-b62f-e4178ab4de64}">
->>>>>>> origin/master
         <relationship name="audioFile">
             <destination>{d35f24ec-f364-423e-b725-0fe094719d9e}</destination>
         </relationship>

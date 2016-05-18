@@ -23,15 +23,7 @@
     </object>
     <object class="GameParameter" id="{f4e8775e-8b78-4f04-9c09-94f132eb0992}">
         <property name="cursorPosition">
-<<<<<<< HEAD
             <value>3.0882352941176467</value>
-=======
-<<<<<<< HEAD
-            <value>4.0196882690730105</value>
-=======
-            <value>1.8990976210008204</value>
->>>>>>> NotesofobsessionSSH/master
->>>>>>> origin/master
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0039745627980922096</value>

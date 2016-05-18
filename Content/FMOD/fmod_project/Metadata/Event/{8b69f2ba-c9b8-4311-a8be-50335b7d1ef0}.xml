@@ -95,6 +95,9 @@
         <property name="length">
             <value>4.5</value>
         </property>
+        <property name="looping">
+            <value>true</value>
+        </property>
         <relationship name="fadeInCurve">
             <destination>{5114b24f-f7d3-478f-9e24-95abfa12e896}</destination>
         </relationship>
@@ -102,7 +105,7 @@
             <destination>{95928a0b-47d6-4578-be84-e41143ed8a65}</destination>
         </relationship>
         <relationship name="audioFile">
-            <destination>{85b3f710-f755-4727-a350-ee6348d6057f}</destination>
+            <destination>{31423892-d595-4a6d-90ff-1690b60fab18}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{60648dd6-358d-4c8c-a7db-1b279ab4b7c1}">
@@ -182,13 +185,13 @@
     </object>
     <object class="AutomationPoint" id="{ee78d7b8-7c47-4ec5-af24-7c60c8d87284}">
         <property name="position">
-            <value>3</value>
+            <value>3.5</value>
         </property>
         <property name="value">
             <value>1</value>
         </property>
         <property name="curveShape">
-            <value>-0.441448599</value>
+            <value>-0.114459895</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{e23c3980-9397-4306-ac43-25995f5abc53}">
