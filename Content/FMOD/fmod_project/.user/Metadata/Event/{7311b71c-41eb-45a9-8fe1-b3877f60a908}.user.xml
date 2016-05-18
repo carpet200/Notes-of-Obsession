@@ -2,13 +2,17 @@
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{7311b71c-41eb-45a9-8fe1-b3877f60a908}">
         <relationship name="selectables">
-            <destination>{5e5f00e1-1fe9-4ce9-848a-cc27071fc3cc}</destination>
+            <destination>{184f373b-e60e-4f7c-b333-81343b8924be}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{eca6e38d-1bdc-496f-b775-200d08b6d8d6}</destination>
         </relationship>
     </object>
-    <object class="MasterTrack" id="{3de21154-87a5-4283-849f-5886a53e38f7}"/>
+    <object class="MasterTrack" id="{3de21154-87a5-4283-849f-5886a53e38f7}">
+        <property name="uiAutomationTracksVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="MixerInput" id="{189448ea-215c-424e-821d-784b964bd62e}"/>
     <object class="EventAutomatableProperties" id="{0abb0dac-cfef-41b9-8328-7fdfc571f189}"/>
     <object class="MarkerTrack" id="{4b1c001f-1268-4102-8254-d3e3cafe5247}"/>
@@ -21,11 +25,20 @@
             <value>0.0009632827582252058</value>
         </property>
     </object>
+    <object class="ElevationParameter" id="{92e588e9-8253-4b18-a2bb-bda04126eae4}">
+        <property name="cursorPosition">
+            <value>0</value>
+        </property>
+        <property name="uiLastRulerScaleRatio">
+            <value>0.14766201804757997</value>
+        </property>
+    </object>
     <object class="EventMixerMaster" id="{8b7bbb89-a170-4a97-9fe7-896ef3240b66}">
         <relationship name="input">
             <destination>{1d6ba8f6-df77-46f7-8813-967c25a1c936}</destination>
         </relationship>
     </object>
+    <object class="AutomationTrack" id="{1ce844af-3835-4c16-9b75-749e5defbcdc}"/>
     <object class="MixerBusEffectChain" id="{df72ade7-b2d3-471f-b238-d87f87e6ef14}"/>
     <object class="MixerBusPanner" id="{b5898a6c-cecb-40b4-adcf-de42abf9f248}"/>
     <object class="SingleSound" id="{f8d9b0a9-ef60-4815-abb9-3904928a4e1f}"/>
@@ -41,5 +54,7 @@
     <object class="MixerBusFader" id="{a5182f09-04f3-406c-80d2-89cbd601e7da}"/>
     <object class="SpatialiserEffect" id="{b92c0f61-f3d2-4854-a8f5-289224f4dd69}"/>
     <object class="MixerSend" id="{3fed4555-3048-44e2-9d9d-715a56b1e914}"/>
+    <object class="PluginEffect" id="{3e5047af-dd43-4a60-8654-2bf1dd2a3189}"/>
     <object class="MixerBusFader" id="{5815da01-4221-4346-82db-90187a9de7d5}"/>
+    <object class="FloatPluginParameter" id="{aa94a8b7-5239-463a-a6a7-6fe84fdfbeb8}"/>
 </objects>

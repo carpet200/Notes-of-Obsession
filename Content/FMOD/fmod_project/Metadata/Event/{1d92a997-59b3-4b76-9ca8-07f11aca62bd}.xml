@@ -8,7 +8,7 @@
             <value>1 MuteMusicSound
 2 MuteMusic
 3 MuteSound
-3.5 UnmuteAll
+0 UnmuteAll
 4 MuteAll</value>
         </property>
         <property name="outputFormat">
@@ -179,7 +179,7 @@
     </object>
     <object class="SnapshotModule" id="{f36bb3bd-295a-4844-8934-85b1db5d0a00}">
         <property name="start">
-            <value>3.4500000000000002</value>
+            <value>0</value>
         </property>
         <property name="length">
             <value>0.099999999999999922</value>

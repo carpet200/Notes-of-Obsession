@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
+<<<<<<< HEAD
+    <object class="Event" id="{eb8a5232-af82-42b0-a6dc-f48924dc5b6b}"/>
+=======
     <object class="Event" id="{eb8a5232-af82-42b0-a6dc-f48924dc5b6b}">
 <<<<<<< HEAD
         <relationship name="selectables">
@@ -19,6 +22,7 @@
             <destination>{d4712c4c-c967-41dc-a156-488c58bf1684}</destination>
         </relationship>
     </object>
+>>>>>>> origin/master
     <object class="MasterTrack" id="{ba76f55f-aa9e-48fa-a02e-927f24e1657e}"/>
 >>>>>>> NotesofobsessionSSH/master
     <object class="MixerInput" id="{8673019c-e11f-40a3-9f7c-e61d711ba683}"/>
@@ -44,6 +48,9 @@
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.00082034454470877774</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>579</value>
         </property>
     </object>
     <object class="DistanceParameter" id="{d4712c4c-c967-41dc-a156-488c58bf1684}">

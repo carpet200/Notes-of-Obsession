@@ -3,11 +3,17 @@
     <object class="Workspace" id="{163696b3-a4cc-40b8-a318-c45e5a765505}">
 <<<<<<< HEAD
         <property name="builtBanksOutputDirectory">
+            <value>../</value>
+        </property>
+=======
+<<<<<<< HEAD
+        <property name="builtBanksOutputDirectory">
             <value>..</value>
         </property>
 =======
         <property name="builtBanksOutputDirectory"/>
 >>>>>>> NotesofobsessionSSH/master
+>>>>>>> origin/master
         <relationship name="masterEventFolder">
             <destination>{3924db15-fd57-46d9-86b3-73444350dd19}</destination>
         </relationship>

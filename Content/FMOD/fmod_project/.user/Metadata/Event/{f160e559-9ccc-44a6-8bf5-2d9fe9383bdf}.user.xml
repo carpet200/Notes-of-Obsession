@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{f160e559-9ccc-44a6-8bf5-2d9fe9383bdf}">
+        <relationship name="selectables">
+            <destination>{f5f0e7c8-cd4f-46e8-afc6-5221560496f6}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{f843942a-be92-4f5d-bae5-3479895ebd60}</destination>
         </relationship>
@@ -18,6 +21,9 @@
             <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
+<<<<<<< HEAD
+            <value>0.011792452830188678</value>
+=======
             <value>0.012895568572434133</value>
 <<<<<<< HEAD
         </property>
@@ -25,6 +31,7 @@
             <value>50</value>
 =======
 >>>>>>> NotesofobsessionSSH/master
+>>>>>>> origin/master
         </property>
     </object>
     <object class="EventMixerMaster" id="{fabb564e-0917-4389-96c2-230540b5468c}">
