@@ -21,7 +21,17 @@
             <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
+<<<<<<< HEAD
             <value>0.011792452830188678</value>
+=======
+            <value>0.012895568572434133</value>
+<<<<<<< HEAD
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>50</value>
+=======
+>>>>>>> NotesofobsessionSSH/master
+>>>>>>> origin/master
         </property>
     </object>
     <object class="EventMixerMaster" id="{fabb564e-0917-4389-96c2-230540b5468c}">

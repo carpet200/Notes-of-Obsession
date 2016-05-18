@@ -11,7 +11,7 @@
     <BuildProduct Path="$(ProjectDir)\Binaries\Win64\Noo.pdb" Type="SymbolFile" />
     <BuildProduct Path="$(ProjectDir)\Plugins\FMODStudio\Binaries\Win64\UE4-FMODStudioOculus.lib" Type="StaticLibrary" />
     <BuildProduct Path="$(ProjectDir)\Plugins\FMODStudio\Binaries\Win64\UE4-FMODStudio.lib" Type="StaticLibrary" />
-    <BuildProduct Path="$(ProjectDir)\Plugins\iTween v0.8.6c\iTween\Binaries\Win64\UE4-iTween.lib" Type="StaticLibrary" />
+    <BuildProduct Path="$(ProjectDir)\Plugins\iTween\Binaries\Win64\UE4-iTween.lib" Type="StaticLibrary" />
   </BuildProducts>
   <RuntimeDependencies>
     <RuntimeDependency Path="$(ProjectDir)\Plugins\FMODStudio\Binaries\Win64\fmodL64.dll" />

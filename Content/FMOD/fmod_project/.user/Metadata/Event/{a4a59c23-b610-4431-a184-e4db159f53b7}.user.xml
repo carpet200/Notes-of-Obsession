@@ -2,7 +2,11 @@
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{a4a59c23-b610-4431-a184-e4db159f53b7}">
         <relationship name="selectables">
+<<<<<<< HEAD
+            <destination>{65f2d433-f1fd-4ca5-b149-d362dbce579e}</destination>
+=======
             <destination>{a1695e6f-04fc-45a2-a841-db9e5affe128}</destination>
+>>>>>>> NotesofobsessionSSH/master
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{3110c2cd-4d43-485c-8e88-9d97c2d54092}</destination>
@@ -18,7 +22,11 @@
             <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
+<<<<<<< HEAD
+            <value>0.00086914388396868174</value>
+=======
             <value>0.00051906045437042736</value>
+>>>>>>> NotesofobsessionSSH/master
         </property>
     </object>
     <object class="EventMixerMaster" id="{a8074cb2-c8f5-4ebd-b8b8-e99cc495ef1f}">
@@ -28,7 +36,11 @@
     </object>
     <object class="MixerBusEffectChain" id="{cf4c91ea-89de-4e61-bf86-f7f27240df93}"/>
     <object class="MixerBusPanner" id="{99029acc-81ac-4c24-aae6-2f0bdf7fe126}"/>
+<<<<<<< HEAD
+    <object class="SingleSound" id="{65f2d433-f1fd-4ca5-b149-d362dbce579e}"/>
+=======
     <object class="SingleSound" id="{a1695e6f-04fc-45a2-a841-db9e5affe128}"/>
+>>>>>>> NotesofobsessionSSH/master
     <object class="EventMixerGroup" id="{b0fe0ce1-5412-46eb-a5f0-d7ab30c9db83}"/>
     <object class="MixerBusEffectChain" id="{3b8a11c8-f2e7-4da9-9919-e195be01a3c5}"/>
     <object class="MixerBusPanner" id="{206b218b-5f37-4702-beaa-41d95916e46a}"/>
