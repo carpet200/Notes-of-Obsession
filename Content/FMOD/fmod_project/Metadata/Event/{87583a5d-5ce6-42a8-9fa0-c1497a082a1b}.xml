@@ -102,6 +102,9 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{00933a0f-e0ad-463d-b7b1-92e193c3b303}">
+        <property name="volume">
+            <value>-1</value>
+        </property>
         <property name="name">
             <value>Monster</value>
         </property>
