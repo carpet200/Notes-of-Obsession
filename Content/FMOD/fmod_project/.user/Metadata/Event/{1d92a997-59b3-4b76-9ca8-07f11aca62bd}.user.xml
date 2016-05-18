@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{1d92a997-59b3-4b76-9ca8-07f11aca62bd}">
-        <relationship name="selectables">
-            <destination>{973e7e0c-5b6d-48b6-bd11-d61e8a42ff62}</destination>
-        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{3e2773bf-4a08-4470-8576-b841972faa78}</destination>
         </relationship>
@@ -25,7 +22,7 @@
     </object>
     <object class="GameParameter" id="{3e2773bf-4a08-4470-8576-b841972faa78}">
         <property name="cursorPosition">
-            <value>0.08859721082854799</value>
+            <value>3.5</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0032813781788351109</value>
@@ -44,6 +41,7 @@
     <object class="SnapshotModule" id="{560c7e3d-7e93-4d27-a674-354b946d2c5d}"/>
     <object class="SnapshotModule" id="{85c51de8-fd30-43f3-bedf-b0d19b3503c4}"/>
     <object class="SnapshotModule" id="{311089b9-d8d0-4e53-8b0a-decb313689ec}"/>
+    <object class="SnapshotModule" id="{f36bb3bd-295a-4844-8934-85b1db5d0a00}"/>
     <object class="EventMixerGroup" id="{face151e-701c-4d49-accd-40e9c4af508d}"/>
     <object class="SingleSound" id="{fedae62e-92c2-4373-b70f-de8c3bd9ea2a}"/>
     <object class="EventMixerGroup" id="{132b56bb-9242-4ed6-b00b-91a3fbc06414}"/>
