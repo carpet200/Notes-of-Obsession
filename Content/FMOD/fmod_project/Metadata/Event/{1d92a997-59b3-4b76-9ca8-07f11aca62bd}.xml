@@ -9,7 +9,8 @@
 2 MuteMusic
 3 MuteSound
 0 UnmuteAll
-4 MuteAll</value>
+4 MuteAll
+0.4 RoamTrans</value>
         </property>
         <property name="outputFormat">
             <value>1</value>
@@ -77,6 +78,7 @@
             <destination>{85c51de8-fd30-43f3-bedf-b0d19b3503c4}</destination>
             <destination>{311089b9-d8d0-4e53-8b0a-decb313689ec}</destination>
             <destination>{f36bb3bd-295a-4844-8934-85b1db5d0a00}</destination>
+            <destination>{2013311f-3a8b-4ebe-96d8-4cd0dc96d2c2}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{face151e-701c-4d49-accd-40e9c4af508d}</destination>
@@ -114,6 +116,7 @@
             <destination>{fedae62e-92c2-4373-b70f-de8c3bd9ea2a}</destination>
             <destination>{4c946976-6022-41a5-a5f1-ba23898dfc5d}</destination>
             <destination>{f36bb3bd-295a-4844-8934-85b1db5d0a00}</destination>
+            <destination>{2013311f-3a8b-4ebe-96d8-4cd0dc96d2c2}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{c493b446-ac0d-49d3-9170-31add3995d63}">
@@ -186,6 +189,17 @@
         </property>
         <relationship name="event">
             <destination>{b60467f9-743b-4695-a391-0b860a31b2d6}</destination>
+        </relationship>
+    </object>
+    <object class="SnapshotModule" id="{2013311f-3a8b-4ebe-96d8-4cd0dc96d2c2}">
+        <property name="start">
+            <value>0.35000000000000003</value>
+        </property>
+        <property name="length">
+            <value>0.14999999999999997</value>
+        </property>
+        <relationship name="event">
+            <destination>{2306c685-4603-4382-afe2-03201e627beb}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{face151e-701c-4d49-accd-40e9c4af508d}">
