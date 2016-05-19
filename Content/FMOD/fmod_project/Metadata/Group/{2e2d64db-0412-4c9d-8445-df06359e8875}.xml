@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="MixerGroup" id="{2e2d64db-0412-4c9d-8445-df06359e8875}">
+        <property name="name">
+            <value>Skabbloop</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{b07357de-42d4-4c73-80c4-e3f4a23633d7}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{b395c106-f434-4755-9b84-4fce3d73a8b5}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{fd907fc1-088d-45b6-abc9-43b7f58730d0}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{b07357de-42d4-4c73-80c4-e3f4a23633d7}">
+        <relationship name="effects">
+            <destination>{ebe9b6d3-ef65-49fd-b97b-fc68cf3ee278}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{b395c106-f434-4755-9b84-4fce3d73a8b5}"/>
+    <object class="MixerBusFader" id="{ebe9b6d3-ef65-49fd-b97b-fc68cf3ee278}"/>
+</objects>
