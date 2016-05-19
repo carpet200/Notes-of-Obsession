@@ -25,7 +25,7 @@
     </object>
     <object class="GameParameter" id="{3e2773bf-4a08-4470-8576-b841972faa78}">
         <property name="cursorPosition">
-            <value>0</value>
+            <value>1.6375198728139906</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0031796502384737681</value>
@@ -45,6 +45,7 @@
     <object class="SnapshotModule" id="{85c51de8-fd30-43f3-bedf-b0d19b3503c4}"/>
     <object class="SnapshotModule" id="{311089b9-d8d0-4e53-8b0a-decb313689ec}"/>
     <object class="SnapshotModule" id="{f36bb3bd-295a-4844-8934-85b1db5d0a00}"/>
+    <object class="SnapshotModule" id="{2013311f-3a8b-4ebe-96d8-4cd0dc96d2c2}"/>
     <object class="EventMixerGroup" id="{face151e-701c-4d49-accd-40e9c4af508d}"/>
     <object class="SingleSound" id="{fedae62e-92c2-4373-b70f-de8c3bd9ea2a}"/>
     <object class="EventMixerGroup" id="{132b56bb-9242-4ed6-b00b-91a3fbc06414}"/>
