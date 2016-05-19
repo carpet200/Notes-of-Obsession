@@ -7,6 +7,9 @@
 [Pp]lugins/
 [Cc]ontent/Maps/
 
+# FMOD Cache files
+[Cc]ontent/FMOD/fmod_project/.cache/
+
 # Generated project files 
 
 *.sdf

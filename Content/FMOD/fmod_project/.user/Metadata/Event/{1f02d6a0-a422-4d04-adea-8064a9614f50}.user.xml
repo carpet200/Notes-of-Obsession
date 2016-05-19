@@ -8,14 +8,29 @@
             <destination>{38f7abea-4fa4-4131-810c-6da54288e086}</destination>
         </relationship>
     </object>
-    <object class="MasterTrack" id="{f386dbb4-b229-4ecf-99f3-7684d3c56d86}"/>
+    <object class="MasterTrack" id="{f386dbb4-b229-4ecf-99f3-7684d3c56d86}">
+        <property name="uiAutomationTracksVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="MixerInput" id="{7d161174-9a3d-4c00-96cd-98defcb22bb0}"/>
     <object class="EventAutomatableProperties" id="{557b9552-d627-4fe6-be0e-b7bb5903f37b}"/>
     <object class="MarkerTrack" id="{acd24285-0389-4f96-a08c-a30a6c32cb2b}"/>
     <object class="GroupTrack" id="{6926d39a-1dbb-4551-8944-fbf1d2ddd6e6}"/>
     <object class="Timeline" id="{38f7abea-4fa4-4131-810c-6da54288e086}">
+        <property name="cursorPosition">
+            <value>0</value>
+        </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0019351602276130577</value>
+        </property>
+    </object>
+    <object class="ElevationParameter" id="{a72d3a99-f226-422a-9738-cb16b2e6adb1}">
+        <property name="cursorPosition">
+            <value>0</value>
+        </property>
+        <property name="uiLastRulerScaleRatio">
+            <value>0.14766201804757997</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{f201f0a1-3a4b-4fc7-a8b9-52888c6c7fed}">
@@ -23,6 +38,7 @@
             <destination>{3b277e9e-1ffd-41a5-b638-2741c1b94046}</destination>
         </relationship>
     </object>
+    <object class="AutomationTrack" id="{f49db661-0bfb-4ee7-b2e6-1613e69db421}"/>
     <object class="MixerBusEffectChain" id="{f710af19-5161-4d6f-bfc7-85079d05d626}"/>
     <object class="MixerBusPanner" id="{1932ff18-be94-492d-8f2f-451dae9bc843}"/>
     <object class="MultiSound" id="{10301a09-59d4-43cd-be15-26afed8adf85}">
@@ -44,5 +60,7 @@
     <object class="MixerBusFader" id="{a12563a3-a03b-44a8-a596-649a4408d04d}"/>
     <object class="SpatialiserEffect" id="{2af78cfd-0880-4297-91fd-e0d9499c795a}"/>
     <object class="MixerSend" id="{b9aeecfe-3f55-4f9a-8f93-522f37c3cc10}"/>
+    <object class="PluginEffect" id="{91282f72-ad22-4db9-8727-4135447712f8}"/>
     <object class="MixerBusFader" id="{784999ea-45c3-4e45-a065-5f9a6443fa79}"/>
+    <object class="FloatPluginParameter" id="{2cb770ba-230f-4588-930a-25a81fc84b68}"/>
 </objects>
