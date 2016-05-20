@@ -74,8 +74,8 @@
     <object class="AutomationTrack" id="{2babf548-77bd-4355-84dd-9f7bfa2bae46}"/>
     <object class="SingleSound" id="{2dc2b30f-ce4e-40a4-8143-8a65cef2fcf8}"/>
     <object class="EventMixerGroup" id="{d0d368f1-8fca-47c2-838d-008fda6b37b3}"/>
-    <object class="TempoMarker" id="{6dd40484-3a90-4c81-9c92-d4b33106fcfb}"/>
     <object class="LoopRegion" id="{9b215b9f-15b7-46d1-a39c-576ed7b7b059}"/>
+    <object class="TempoMarker" id="{6dd40484-3a90-4c81-9c92-d4b33106fcfb}"/>
     <object class="MixerBusEffectChain" id="{6cb344d9-46a0-4764-85b7-803ada382c24}"/>
     <object class="MixerBusPanner" id="{4e021c1c-a450-4b46-b814-3056117ddd67}"/>
     <object class="MixerBusFader" id="{8d57fbbf-18a4-493b-9b79-5b3250b376f2}"/>
