@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{2f77f63a-ffe7-414d-8091-a32174cc95d5}">
+        <relationship name="selectables">
+            <destination>{f993e285-40ef-4b81-975d-97fadce2f483}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{120c9039-c6f3-47dc-b9c7-5fd8f3baf273}</destination>
         </relationship>
@@ -21,7 +24,7 @@
     </object>
     <object class="GameParameter" id="{120c9039-c6f3-47dc-b9c7-5fd8f3baf273}">
         <property name="cursorPosition">
-            <value>1.6087891947927899</value>
+            <value>3.3015152171399866</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0069947356295338697</value>
@@ -123,9 +126,6 @@
     <object class="SingleSound" id="{16e5f05a-bcbd-4d76-8f45-68f5b004a5f0}"/>
     <object class="SingleSound" id="{722345ee-fa43-4a9a-91b4-bbc71408194f}"/>
     <object class="SingleSound" id="{107c18b6-7a9b-4cad-9ab7-133286153c3b}"/>
-    <object class="SingleSound" id="{c27a76b5-88e1-42c5-b1a7-db1afe7eec07}"/>
-    <object class="SingleSound" id="{38ea9b33-95a2-42ce-98ee-a21d438639ec}"/>
-    <object class="SingleSound" id="{767597ed-c841-4a10-9a7b-959c15b0bb14}"/>
     <object class="SingleSound" id="{b389d3cf-9793-469b-90e9-ff4dbb8a6998}"/>
     <object class="SingleSound" id="{0fec7391-3b51-4fbd-8e4a-d4853420b289}"/>
     <object class="SingleSound" id="{afa1ea20-7b73-46e3-967d-9664aeda24f7}"/>
