@@ -62,7 +62,7 @@ Consisting of a large/small rocking sound depending on the parameter Larger_Rock
             <destination>{be38b34c-2886-4af1-8e04-bd494430e8c4}</destination>
         </relationship>
         <relationship name="output">
-            <destination>{fd907fc1-088d-45b6-abc9-43b7f58730d0}</destination>
+            <destination>{7ba2ac69-fc91-4f4c-a1a9-79c8f95ccf3f}</destination>
         </relationship>
     </object>
     <object class="EventAutomatableProperties" id="{7ecdbe8f-3809-4ce0-a59f-1d50b9e51531}"/>
