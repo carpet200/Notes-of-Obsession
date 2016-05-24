@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="MixerGroup" id="{ef40705e-9c41-44c4-8326-776b9f59e897}">
+        <property name="name">
+            <value>Crazywhisp</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{e4c2151b-c027-4c56-84b0-c02454bdca6f}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{d3b87cbb-3515-497b-b77b-62d2a95b64de}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{fd907fc1-088d-45b6-abc9-43b7f58730d0}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{e4c2151b-c027-4c56-84b0-c02454bdca6f}">
+        <relationship name="effects">
+            <destination>{44a831d5-2071-419b-bbfd-4f85c0a1d036}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{d3b87cbb-3515-497b-b77b-62d2a95b64de}"/>
+    <object class="MixerBusFader" id="{44a831d5-2071-419b-bbfd-4f85c0a1d036}"/>
+</objects>
