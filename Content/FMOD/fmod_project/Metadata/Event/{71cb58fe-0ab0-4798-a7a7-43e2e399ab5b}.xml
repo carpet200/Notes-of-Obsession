@@ -5,7 +5,7 @@
             <value>CreditMusic</value>
         </property>
         <property name="outputFormat">
-            <value>1</value>
+            <value>0</value>
         </property>
         <relationship name="mixer">
             <destination>{99916d56-dbb1-405b-bcc3-07aa56d688f4}</destination>
@@ -59,18 +59,11 @@
     <object class="EventAutomatableProperties" id="{d8e15af7-4c25-418b-b916-044866e9515f}"/>
     <object class="MarkerTrack" id="{ad2f56e9-2662-4271-974b-4346c27fb580}"/>
     <object class="GroupTrack" id="{c3d658c2-3994-482c-8f48-c6b2afb07866}">
-        <relationship name="modules">
-            <destination>{7e0bb496-77b2-452e-ba85-099a5a96c0c9}</destination>
-        </relationship>
         <relationship name="mixerGroup">
             <destination>{c7685cdd-fd2d-4bc4-ae4b-cfa750370ec5}</destination>
         </relationship>
     </object>
-    <object class="Timeline" id="{6e1af589-ba92-4499-8c2d-084ee4d01290}">
-        <relationship name="modules">
-            <destination>{7e0bb496-77b2-452e-ba85-099a5a96c0c9}</destination>
-        </relationship>
-    </object>
+    <object class="Timeline" id="{6e1af589-ba92-4499-8c2d-084ee4d01290}"/>
     <object class="EventMixerMaster" id="{18356cae-6508-44a8-b112-f83b1e662fdd}">
         <relationship name="effectChain">
             <destination>{f07c3e31-45f5-4c96-ba7c-88dffa90a95a}</destination>
@@ -88,17 +81,6 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{439eb4a4-50da-4d69-bec3-fdcd8445574d}"/>
-    <object class="SingleSound" id="{7e0bb496-77b2-452e-ba85-099a5a96c0c9}">
-        <property name="start">
-            <value>0</value>
-        </property>
-        <property name="length">
-            <value>24</value>
-        </property>
-        <relationship name="audioFile">
-            <destination>{e94b729e-fe16-4e00-b6a9-c5fcb47f7499}</destination>
-        </relationship>
-    </object>
     <object class="EventMixerGroup" id="{c7685cdd-fd2d-4bc4-ae4b-cfa750370ec5}">
         <property name="name">
             <value>Audio 1</value>
@@ -130,7 +112,7 @@
     <object class="MixerBusFader" id="{a1c7f30e-280e-4328-aa30-a2843869bec8}"/>
     <object class="MixerSend" id="{49ea6617-cc09-4450-ac1a-8ee752dfecf2}">
         <property name="inputFormat">
-            <value>1</value>
+            <value>0</value>
         </property>
         <relationship name="mixerReturn">
             <destination>{12c215c2-057d-4f88-bd9f-2b906f6537c3}</destination>
