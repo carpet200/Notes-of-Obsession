@@ -5,7 +5,7 @@
             <value>Whisper_pan</value>
         </property>
         <property name="outputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="mixer">
             <destination>{c1a4280e-5aef-49ae-bc38-f60b45f1a02b}</destination>
@@ -116,7 +116,6 @@
     <object class="MixerBusEffectChain" id="{ca7fd7ad-fd21-4ff4-b5ab-ea5a3028950d}">
         <relationship name="effects">
             <destination>{0ec99293-8d85-442d-871b-c5bfbf2ba820}</destination>
-            <destination>{974d7974-0453-4383-a115-242992962732}</destination>
             <destination>{839413cb-add0-4355-a454-92bc3334d7fc}</destination>
         </relationship>
     </object>
@@ -129,10 +128,9 @@
     </object>
     <object class="MixerBusPanner" id="{6c3d9cce-87ba-4b5b-af55-4fe671ef9ab2}"/>
     <object class="MixerBusFader" id="{0ec99293-8d85-442d-871b-c5bfbf2ba820}"/>
-    <object class="SpatialiserEffect" id="{974d7974-0453-4383-a115-242992962732}"/>
     <object class="MixerSend" id="{839413cb-add0-4355-a454-92bc3334d7fc}">
         <property name="inputFormat">
-            <value>2</value>
+            <value>1</value>
         </property>
         <relationship name="mixerReturn">
             <destination>{12c215c2-057d-4f88-bd9f-2b906f6537c3}</destination>
