@@ -5,10 +5,14 @@
             <destination>{d74e18cc-cc3d-46dc-89b8-efc4ceb393e5}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
-            <destination>{3bc64f93-f843-405c-9e48-82553becba0b}</destination>
+            <destination>{a5620a4e-93b0-4dfa-869f-47f03e0af1fd}</destination>
         </relationship>
     </object>
-    <object class="MasterTrack" id="{d74e18cc-cc3d-46dc-89b8-efc4ceb393e5}"/>
+    <object class="MasterTrack" id="{d74e18cc-cc3d-46dc-89b8-efc4ceb393e5}">
+        <property name="uiAutomationTracksVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="MixerInput" id="{075380b4-5ff7-4f46-be5e-b1bae33b9f44}"/>
     <object class="EventAutomatableProperties" id="{47be4b89-2b3c-4fa5-8a5f-29cb0616cff6}"/>
     <object class="MarkerTrack" id="{8963d0f2-e0c5-4a2b-918d-9dd32739d4e5}"/>
@@ -22,13 +26,19 @@
         <property name="uiLastRulerScaleRatio">
             <value>0.0073131955484896658</value>
         </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>50</value>
+        </property>
     </object>
     <object class="GameParameter" id="{3bc64f93-f843-405c-9e48-82553becba0b}">
         <property name="cursorPosition">
-            <value>0</value>
+            <value>20</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.036842105263157891</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>111</value>
         </property>
     </object>
     <object class="GameParameter" id="{131357e2-ba17-4065-a382-e9499d19d212}">
