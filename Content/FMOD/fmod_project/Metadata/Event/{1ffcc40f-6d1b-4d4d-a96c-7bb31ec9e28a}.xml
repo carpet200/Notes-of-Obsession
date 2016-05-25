@@ -92,7 +92,11 @@
             <destination>{98112a56-a1bf-463c-9b35-36e35f691948}</destination>
         </relationship>
     </object>
-    <object class="Timeline" id="{9f1b077d-ebdb-4fba-a9ca-67765513345b}"/>
+    <object class="Timeline" id="{9f1b077d-ebdb-4fba-a9ca-67765513345b}">
+        <relationship name="markers">
+            <destination>{000e27aa-c908-4e72-862a-752f20178a41}</destination>
+        </relationship>
+    </object>
     <object class="GameParameter" id="{9cd00b29-7a7a-48f9-9720-485acef03d9b}">
         <property name="name">
             <value>Parameter 1</value>
@@ -262,6 +266,20 @@
         </relationship>
         <relationship name="output">
             <destination>{1ec9587b-796f-4dbb-a70d-b16962e7475a}</destination>
+        </relationship>
+    </object>
+    <object class="LoopRegion" id="{000e27aa-c908-4e72-862a-752f20178a41}">
+        <property name="position">
+            <value>0</value>
+        </property>
+        <property name="length">
+            <value>2</value>
+        </property>
+        <relationship name="timeline">
+            <destination>{9f1b077d-ebdb-4fba-a9ca-67765513345b}</destination>
+        </relationship>
+        <relationship name="markerTrack">
+            <destination>{9252ffa6-6621-43d7-bfe6-2738dccc35b9}</destination>
         </relationship>
     </object>
     <object class="AutomationCurve" id="{13723348-b264-475f-9cd8-42e4832f302c}">
