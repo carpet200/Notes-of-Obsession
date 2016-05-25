@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="AudioFile" id="{d9000d76-d490-40d5-a849-6ccd800ab91c}">
+        <property name="assetPath">
+            <value>wakeupshort.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>5.324784580498866</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{44928556-1cfe-4131-a1d1-db551eee9f62}</destination>
+        </relationship>
+    </object>
+</objects>

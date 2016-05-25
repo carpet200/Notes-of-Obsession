@@ -10,7 +10,7 @@
 3 MuteSound
 0 UnmuteAll
 4 MuteAll
-0.4 RoamTrans</value>
+5 RoamTrans</value>
         </property>
         <property name="outputFormat">
             <value>1</value>
@@ -78,7 +78,7 @@
             <destination>{85c51de8-fd30-43f3-bedf-b0d19b3503c4}</destination>
             <destination>{311089b9-d8d0-4e53-8b0a-decb313689ec}</destination>
             <destination>{f36bb3bd-295a-4844-8934-85b1db5d0a00}</destination>
-            <destination>{2013311f-3a8b-4ebe-96d8-4cd0dc96d2c2}</destination>
+            <destination>{7046ffb8-267a-4a1d-9c25-6610342549c9}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{face151e-701c-4d49-accd-40e9c4af508d}</destination>
@@ -106,7 +106,7 @@
             <value>change_snapshot</value>
         </property>
         <property name="maximum">
-            <value>4</value>
+            <value>6</value>
         </property>
         <relationship name="modules">
             <destination>{973e7e0c-5b6d-48b6-bd11-d61e8a42ff62}</destination>
@@ -116,7 +116,7 @@
             <destination>{fedae62e-92c2-4373-b70f-de8c3bd9ea2a}</destination>
             <destination>{4c946976-6022-41a5-a5f1-ba23898dfc5d}</destination>
             <destination>{f36bb3bd-295a-4844-8934-85b1db5d0a00}</destination>
-            <destination>{2013311f-3a8b-4ebe-96d8-4cd0dc96d2c2}</destination>
+            <destination>{7046ffb8-267a-4a1d-9c25-6610342549c9}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{c493b446-ac0d-49d3-9170-31add3995d63}">
@@ -138,7 +138,7 @@
     <object class="MixerBusPanner" id="{0a254551-75d2-4b67-9883-8cae568fee60}"/>
     <object class="SnapshotModule" id="{973e7e0c-5b6d-48b6-bd11-d61e8a42ff62}">
         <property name="start">
-            <value>1</value>
+            <value>0.95000000000000007</value>
         </property>
         <property name="length">
             <value>0.10000000000000001</value>
@@ -149,7 +149,7 @@
     </object>
     <object class="SnapshotModule" id="{560c7e3d-7e93-4d27-a674-354b946d2c5d}">
         <property name="start">
-            <value>2</value>
+            <value>1.9500000000000002</value>
         </property>
         <property name="length">
             <value>0.10000000000000001</value>
@@ -160,7 +160,7 @@
     </object>
     <object class="SnapshotModule" id="{85c51de8-fd30-43f3-bedf-b0d19b3503c4}">
         <property name="start">
-            <value>3</value>
+            <value>2.9500000000000002</value>
         </property>
         <property name="length">
             <value>0.10000000000000001</value>
@@ -171,7 +171,7 @@
     </object>
     <object class="SnapshotModule" id="{311089b9-d8d0-4e53-8b0a-decb313689ec}">
         <property name="start">
-            <value>3.9000000000000004</value>
+            <value>3.9500000000000002</value>
         </property>
         <property name="length">
             <value>0.10000000000000001</value>
@@ -191,15 +191,15 @@
             <destination>{b60467f9-743b-4695-a391-0b860a31b2d6}</destination>
         </relationship>
     </object>
-    <object class="SnapshotModule" id="{2013311f-3a8b-4ebe-96d8-4cd0dc96d2c2}">
+    <object class="SnapshotModule" id="{7046ffb8-267a-4a1d-9c25-6610342549c9}">
         <property name="start">
-            <value>0.35000000000000003</value>
+            <value>4.9000000000000004</value>
         </property>
         <property name="length">
-            <value>0.14999999999999997</value>
+            <value>0.20000000000000001</value>
         </property>
         <relationship name="event">
-            <destination>{2306c685-4603-4382-afe2-03201e627beb}</destination>
+            <destination>{0509ecc9-8394-4c1b-8b51-cab247741cce}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{face151e-701c-4d49-accd-40e9c4af508d}">
@@ -218,7 +218,7 @@
     </object>
     <object class="SingleSound" id="{fedae62e-92c2-4373-b70f-de8c3bd9ea2a}">
         <property name="start">
-            <value>3.9000000000000004</value>
+            <value>3.9500000000000002</value>
         </property>
         <property name="length">
             <value>0.099999999999999645</value>
@@ -246,7 +246,7 @@
             <value>0</value>
         </property>
         <property name="length">
-            <value>4</value>
+            <value>6</value>
         </property>
         <property name="volume">
             <value>-80</value>

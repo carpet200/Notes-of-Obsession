@@ -36,7 +36,11 @@
             <destination>{0270eca2-ab24-4b67-9043-a0cf4327a97a}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{e9573f7a-f25a-4668-87ee-abd986cb4a48}"/>
+    <object class="EventAutomatableProperties" id="{e9573f7a-f25a-4668-87ee-abd986cb4a48}">
+        <relationship name="modulators">
+            <destination>{c11f40e6-919f-4fd1-b4b0-25a9e31a9a4a}</destination>
+        </relationship>
+    </object>
     <object class="MarkerTrack" id="{f46f5652-0d25-4a1b-8b8f-269f8262c814}"/>
     <object class="Timeline" id="{f476f8e9-1f0a-4d3f-a1f9-e4b8f3fa1399}"/>
     <object class="SnapshotMasterTrack" id="{85f1c4d3-f050-44ce-971c-c11730a756e1}"/>
@@ -135,5 +139,40 @@
         <relationship name="mixerStrip">
             <destination>{12c215c2-057d-4f88-bd9f-2b906f6537c3}</destination>
         </relationship>
+    </object>
+    <object class="ADSRModulator" id="{c11f40e6-919f-4fd1-b4b0-25a9e31a9a4a}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>snapshotIntensity</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+        <property name="attackTime">
+            <value>1000</value>
+        </property>
+        <property name="attackShape">
+            <value>0</value>
+        </property>
+        <property name="peakValue">
+            <value>100</value>
+        </property>
+        <property name="holdTime">
+            <value>1000</value>
+        </property>
+        <property name="decayTime">
+            <value>1000</value>
+        </property>
+        <property name="decayShape">
+            <value>0</value>
+        </property>
+        <property name="sustainValue">
+            <value>100</value>
+        </property>
+        <property name="releaseTime">
+            <value>1000</value>
+        </property>
+        <property name="releaseShape">
+            <value>0</value>
+        </property>
     </object>
 </objects>

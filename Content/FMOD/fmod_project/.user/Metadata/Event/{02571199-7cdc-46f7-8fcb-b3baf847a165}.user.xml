@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{02571199-7cdc-46f7-8fcb-b3baf847a165}">
         <relationship name="selectables">
-            <destination>{3756fddc-f72b-4745-b51c-b9e2d33631d8}</destination>
+            <destination>{1ff81d13-1eff-4dde-bc7c-5bceadb2e155}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{22bd53ab-ff9a-42e9-b762-152e3375353b}</destination>
@@ -51,7 +51,11 @@
     <object class="AutomationTrack" id="{49c5b93c-4328-438d-a950-3f56b919a737}"/>
     <object class="MixerBusEffectChain" id="{2041f6de-34a4-4c1d-a2aa-9cdc8afa0d37}"/>
     <object class="MixerBusPanner" id="{8b4de573-e8f8-4d33-a2cf-e545afe6b3f4}"/>
-    <object class="MultiSound" id="{1ff81d13-1eff-4dde-bc7c-5bceadb2e155}"/>
+    <object class="MultiSound" id="{1ff81d13-1eff-4dde-bc7c-5bceadb2e155}">
+        <property name="uiTriggerBehaviorDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="EventMixerGroup" id="{23726087-a32b-470c-865f-3a046792f17d}"/>
     <object class="MultiSound" id="{04d54795-00a6-4799-a218-c186102d62e1}">
         <property name="uiTriggerBehaviorDrawerVisible">

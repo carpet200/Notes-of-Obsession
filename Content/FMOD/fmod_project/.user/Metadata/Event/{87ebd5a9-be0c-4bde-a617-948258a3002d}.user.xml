@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{87ebd5a9-be0c-4bde-a617-948258a3002d}">
         <relationship name="selectables">
-            <destination>{6f0aac52-3ec5-4e85-b6b9-bd2ac20eadf5}</destination>
+            <destination>{4affa813-ce33-420c-b630-0c4446230b0a}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{8e323de9-d856-4f4d-aaec-95a45afb5daa}</destination>
@@ -16,10 +16,13 @@
     <object class="GroupTrack" id="{bedfd07e-0fe1-4872-a322-9153e25ad963}"/>
     <object class="Timeline" id="{8e323de9-d856-4f4d-aaec-95a45afb5daa}">
         <property name="cursorPosition">
-            <value>0</value>
+            <value>5.3702830188679247</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0042452830188679245</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>267</value>
         </property>
     </object>
     <object class="GameParameter" id="{ee99829c-060e-4f12-bce3-572cd183b66f}">
@@ -60,7 +63,6 @@
     <object class="SingleSound" id="{5695a0a4-f333-4f80-975d-f54e131fe722}"/>
     <object class="SingleSound" id="{96ea376b-1235-4b7d-bab7-ed9e4a4a2ef0}"/>
     <object class="SingleSound" id="{d75d6ce5-d242-4be0-94eb-dd3e208c8011}"/>
-    <object class="SingleSound" id="{4a2858b6-934e-4db6-bb4e-fc48f65063de}"/>
     <object class="SingleSound" id="{fc50144a-ee81-4f45-842e-8d942cc16da8}"/>
     <object class="SingleSound" id="{cfbab8b0-1609-487c-a2ad-549e8bd2d3a4}"/>
     <object class="SingleSound" id="{27613c0e-48c7-462c-ad80-e672ddfd7c02}"/>
