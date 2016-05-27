@@ -62,7 +62,7 @@
             <destination>{754435c6-53a1-4e5b-baee-c89e1f83c567}</destination>
         </relationship>
         <relationship name="output">
-            <destination>{fd907fc1-088d-45b6-abc9-43b7f58730d0}</destination>
+            <destination>{ddf73ba7-2984-4ea8-8c74-b086c3916dc1}</destination>
         </relationship>
     </object>
     <object class="EventAutomatableProperties" id="{15f1da53-a4f4-4126-a76b-b9966ff5ccec}"/>
@@ -120,9 +120,6 @@
     </object>
     <object class="MixerBusPanner" id="{754435c6-53a1-4e5b-baee-c89e1f83c567}"/>
     <object class="MultiSound" id="{d7c7a088-857a-4c2a-aff4-2b28ea538019}">
-        <property name="triggerProbabilityEnabled">
-            <value>true</value>
-        </property>
         <property name="triggerProbability">
             <value>12</value>
         </property>
@@ -144,7 +141,7 @@
     </object>
     <object class="EventMixerGroup" id="{15b0a877-0ae5-4fc9-8bbc-e5d5955e43a3}">
         <property name="volume">
-            <value>3</value>
+            <value>2</value>
         </property>
         <property name="name">
             <value>Sickly_Monster</value>
@@ -245,7 +242,11 @@
         </property>
     </object>
     <object class="MixerBusFader" id="{1f6dac70-af4e-47da-97c1-6f56c6b6a145}"/>
-    <object class="SpatialiserEffect" id="{2ff5c651-6e27-420d-af1f-3fa344aee57b}"/>
+    <object class="SpatialiserEffect" id="{2ff5c651-6e27-420d-af1f-3fa344aee57b}">
+        <property name="maximumDistance">
+            <value>15</value>
+        </property>
+    </object>
     <object class="MixerSend" id="{72ca9436-79ed-4d54-9b83-b59f4a7ab4d5}">
         <property name="inputFormat">
             <value>2</value>
