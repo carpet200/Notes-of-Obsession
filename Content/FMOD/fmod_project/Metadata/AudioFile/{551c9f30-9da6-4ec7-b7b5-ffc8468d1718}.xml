@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="AudioFile" id="{551c9f30-9da6-4ec7-b7b5-ffc8468d1718}">
+        <property name="assetPath">
+            <value>Monster/Noise/SE_Monster_Noise_18.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.3231972789115645</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{44928556-1cfe-4131-a1d1-db551eee9f62}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
-    <object class="Event" id="{535ab51d-6817-417c-9e3b-0bf3785c4805}">
-        <relationship name="uiLastParameterSelection">
-            <destination>{7f55586e-cb2e-45de-98b7-29d8dc393d75}</destination>
-        </relationship>
-    </object>
+    <object class="Event" id="{535ab51d-6817-417c-9e3b-0bf3785c4805}"/>
     <object class="MasterTrack" id="{11780b35-4052-4ffb-b71d-59dde7630316}">
         <property name="uiAutomationTracksVisible">
             <value>true</value>
