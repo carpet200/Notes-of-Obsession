@@ -62,7 +62,7 @@
             <destination>{c2b1c7b7-02d9-478c-a8c0-f32a1a6e9b61}</destination>
         </relationship>
         <relationship name="output">
-            <destination>{fd907fc1-088d-45b6-abc9-43b7f58730d0}</destination>
+            <destination>{ddf73ba7-2984-4ea8-8c74-b086c3916dc1}</destination>
         </relationship>
     </object>
     <object class="EventAutomatableProperties" id="{8f422d98-37da-455e-897b-19726e768bbb}">
@@ -150,7 +150,7 @@
     </object>
     <object class="EventMixerGroup" id="{f892d90d-4d32-43b1-b751-abc515db081a}">
         <property name="volume">
-            <value>5</value>
+            <value>4</value>
         </property>
         <property name="name">
             <value>Longer</value>
@@ -244,7 +244,11 @@
         </property>
     </object>
     <object class="MixerBusFader" id="{5f686e27-9b05-4d30-92ce-789ed894b787}"/>
-    <object class="SpatialiserEffect" id="{336e4274-cbba-4f15-b66c-639880f1d7d4}"/>
+    <object class="SpatialiserEffect" id="{336e4274-cbba-4f15-b66c-639880f1d7d4}">
+        <property name="maximumDistance">
+            <value>15</value>
+        </property>
+    </object>
     <object class="MixerSend" id="{2c375a76-d7f9-4acc-9c64-cbf7089a7d3b}">
         <property name="inputFormat">
             <value>2</value>
