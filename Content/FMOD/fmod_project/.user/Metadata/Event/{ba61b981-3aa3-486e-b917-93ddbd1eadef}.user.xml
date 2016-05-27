@@ -12,22 +12,26 @@
     <object class="MixerInput" id="{8f93c655-ae11-4697-a16c-87e12cc07427}"/>
     <object class="EventAutomatableProperties" id="{7f063f83-6d16-4dc9-a3a2-1c4e09bad63a}"/>
     <object class="MarkerTrack" id="{29fed060-d7ba-40fc-b15f-3744699c1223}"/>
-    <object class="GroupTrack" id="{6ab62414-a160-404a-aa89-4da6917f22c4}"/>
+    <object class="GroupTrack" id="{6ab62414-a160-404a-aa89-4da6917f22c4}">
+        <property name="uiAutomationTracksVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="GroupTrack" id="{f5ad2eff-6137-4a3c-a541-158edcc82de2}"/>
     <object class="Timeline" id="{c470d5b9-6ad1-4b66-a7f7-abf903acee00}">
         <property name="cursorPosition">
             <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.0074113856068743281</value>
+            <value>0.012913361571043511</value>
         </property>
     </object>
     <object class="GameParameter" id="{3014226b-83b3-41e5-ba5a-dbdec60cef90}">
         <property name="cursorPosition">
-            <value>0.0041017227235438884</value>
+            <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
-            <value>0.00010254306808859722</value>
+            <value>0.00082034454470877774</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{27cfc068-9f07-4150-8aca-29bd791685ce}">
