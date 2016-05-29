@@ -19,10 +19,13 @@
         <property name="uiLastRulerScaleRatio">
             <value>0.0047169811320754715</value>
         </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>153</value>
+        </property>
     </object>
     <object class="GameParameter" id="{e14a90d8-4ad1-4600-917c-63cbeaa78beb}">
         <property name="cursorPosition">
-            <value>0</value>
+            <value>1</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.00082034454470877774</value>
