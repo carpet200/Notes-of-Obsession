@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{1670d477-b6ec-4b6b-b5bc-0d5dbbf73e10}">
         <relationship name="selectables">
-            <destination>{19232ed8-f668-49d6-8e52-1f08b8cef41c}</destination>
+            <destination>{575a0169-abe2-408a-bc4b-9ed8bdf8b969}</destination>
         </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{7ed8953b-00a9-45f7-8f2e-bae15020887d}</destination>

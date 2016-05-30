@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{a42cd008-d13b-48ff-8973-4eda54b12e7d}">
+        <relationship name="selectables">
+            <destination>{681cd748-610d-42d4-b9dc-9e0b4f46570c}</destination>
+        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{96b1265f-4855-4901-897b-e86a42292334}</destination>
         </relationship>
@@ -20,7 +23,7 @@
             <value>0.0047169811320754715</value>
         </property>
         <property name="uiLastHorizontalScrollBarValue">
-            <value>153</value>
+            <value>699</value>
         </property>
     </object>
     <object class="GameParameter" id="{e14a90d8-4ad1-4600-917c-63cbeaa78beb}">
@@ -29,6 +32,9 @@
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.00082034454470877774</value>
+        </property>
+        <property name="uiLastHorizontalScrollBarValue">
+            <value>581</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{4b6e9ca2-e3c5-4fc5-a203-e6ff2965b3b0}">
@@ -39,9 +45,17 @@
     </object>
     <object class="MixerBusEffectChain" id="{20c33729-4718-452e-bd4e-50a068720f96}"/>
     <object class="MixerBusPanner" id="{4b78f8c2-b210-44e6-ba3f-773bcd0aa97e}"/>
-    <object class="MultiSound" id="{681cd748-610d-42d4-b9dc-9e0b4f46570c}"/>
+    <object class="MultiSound" id="{681cd748-610d-42d4-b9dc-9e0b4f46570c}">
+        <property name="uiModulationDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="EventMixerGroup" id="{7a8eeb89-57c3-44db-8b85-787a5173daf1}"/>
-    <object class="MultiSound" id="{6a6df55b-126e-45cf-b08c-fce282a101a2}"/>
+    <object class="MultiSound" id="{6a6df55b-126e-45cf-b08c-fce282a101a2}">
+        <property name="uiModulationDrawerVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="EventMixerGroup" id="{638372f3-7810-47e7-a97b-d36ff0a7102a}"/>
     <object class="TransitionMarker" id="{7b64def0-1cb8-47aa-8d9a-03ae65bc93d0}"/>
     <object class="NamedMarker" id="{9a254d92-5ebb-440e-a990-685b0c55227c}"/>
