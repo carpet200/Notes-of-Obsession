@@ -51,12 +51,12 @@
         </property>
     </object>
     <object class="EventMixerGroup" id="{3a843b40-d0ba-4969-8758-b7cdf4def891}"/>
-    <object class="NamedMarker" id="{ad8d20b1-97dc-4394-ac98-73f1667186c1}"/>
-    <object class="NamedMarker" id="{f52337ec-d672-4d0d-b2fb-63f24efcc0e2}"/>
-    <object class="NamedMarker" id="{9b735cc3-16e3-4d2f-94b3-54bf72122394}"/>
-    <object class="TransitionMarker" id="{83e2c1e9-eb99-4674-beab-df1526e39a93}"/>
-    <object class="TransitionRegion" id="{da06cba9-32af-4f85-9e65-e95e0eedc9cd}"/>
     <object class="TransitionRegion" id="{c96c90d5-b97c-4afe-9bb1-1dfb96ef1798}"/>
+    <object class="TransitionRegion" id="{da06cba9-32af-4f85-9e65-e95e0eedc9cd}"/>
+    <object class="TransitionMarker" id="{83e2c1e9-eb99-4674-beab-df1526e39a93}"/>
+    <object class="NamedMarker" id="{9b735cc3-16e3-4d2f-94b3-54bf72122394}"/>
+    <object class="NamedMarker" id="{f52337ec-d672-4d0d-b2fb-63f24efcc0e2}"/>
+    <object class="NamedMarker" id="{ad8d20b1-97dc-4394-ac98-73f1667186c1}"/>
     <object class="MixerBusEffectChain" id="{c440436c-460d-4cf6-910b-95c5de838ef4}"/>
     <object class="MixerBusPanner" id="{a165aad4-12a2-4963-8045-099ba17128cf}"/>
     <object class="MixerBusFader" id="{9653af81-3aa4-4912-aeaf-b65c00c9653b}"/>
@@ -70,8 +70,8 @@
     <object class="SingleSound" id="{e96ad3e9-8c1f-4312-a34c-50076a326fc6}"/>
     <object class="MixerBusEffectChain" id="{8e31b4d7-ac93-452e-b5f0-9dcb55798c2f}"/>
     <object class="MixerBusPanner" id="{891149cc-e2b5-46d4-b042-d40f034f87b9}"/>
-    <object class="ParameterCondition" id="{671986a1-8dac-4c5b-a13e-d4e50ce71264}"/>
     <object class="ParameterCondition" id="{77253db8-72c5-4746-9398-e56ffd2015c2}"/>
+    <object class="ParameterCondition" id="{671986a1-8dac-4c5b-a13e-d4e50ce71264}"/>
     <object class="MixerBusFader" id="{9f64af89-4358-4b73-83e9-6c840810bd21}"/>
     <object class="MixerSend" id="{7f791077-0973-41be-8400-f06410ccba39}"/>
     <object class="MixerBusFader" id="{a6d447c2-4814-4923-99ad-e3776b81be7f}"/>
