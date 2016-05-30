@@ -16,13 +16,10 @@
     </object>
     <object class="Timeline" id="{584e5895-f932-45ae-81aa-c0627f0d40ca}">
         <property name="cursorPosition">
-            <value>6.1729713772301373</value>
+            <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.0047169811320754715</value>
-        </property>
-        <property name="uiLastHorizontalScrollBarValue">
-            <value>611</value>
         </property>
     </object>
     <object class="EventMixerMaster" id="{3311ae6e-3af7-4e8d-b061-76c78201e97e}">

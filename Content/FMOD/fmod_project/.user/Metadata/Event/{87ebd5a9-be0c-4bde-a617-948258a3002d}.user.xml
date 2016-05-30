@@ -22,7 +22,7 @@
             <value>0.0042452830188679245</value>
         </property>
         <property name="uiLastHorizontalScrollBarValue">
-            <value>267</value>
+            <value>236</value>
         </property>
     </object>
     <object class="GameParameter" id="{ee99829c-060e-4f12-bce3-572cd183b66f}">
@@ -61,7 +61,6 @@
     <object class="MixerBusPanner" id="{a165aad4-12a2-4963-8045-099ba17128cf}"/>
     <object class="MixerBusFader" id="{9653af81-3aa4-4912-aeaf-b65c00c9653b}"/>
     <object class="SingleSound" id="{5695a0a4-f333-4f80-975d-f54e131fe722}"/>
-    <object class="SingleSound" id="{96ea376b-1235-4b7d-bab7-ed9e4a4a2ef0}"/>
     <object class="SingleSound" id="{d75d6ce5-d242-4be0-94eb-dd3e208c8011}"/>
     <object class="SingleSound" id="{fc50144a-ee81-4f45-842e-8d942cc16da8}"/>
     <object class="SingleSound" id="{cfbab8b0-1609-487c-a2ad-549e8bd2d3a4}"/>
