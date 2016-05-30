@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{8c43b2bf-7ce6-4951-b17e-f584f575a848}">
-        <relationship name="selectables">
-            <destination>{e6b790d9-4320-4095-bb49-6c0a96bfbec5}</destination>
-        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{58b9fe21-2c1f-40cd-a612-896482cea170}</destination>
         </relationship>
@@ -26,7 +23,7 @@
     </object>
     <object class="Timeline" id="{58b9fe21-2c1f-40cd-a612-896482cea170}">
         <property name="cursorPosition">
-            <value>0</value>
+            <value>0.014780339122403927</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.00021420781336817287</value>
@@ -34,7 +31,7 @@
     </object>
     <object class="GameParameter" id="{286fc0de-40d2-4801-b871-efaf6a564a60}">
         <property name="cursorPosition">
-            <value>1</value>
+            <value>0</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.00082034454470877774</value>
@@ -70,11 +67,7 @@
         </property>
     </object>
     <object class="EventMixerGroup" id="{d8e39541-95dc-4c8b-bc84-a655ae33d5e9}"/>
-    <object class="SingleSound" id="{526e8239-9eb8-44cc-9731-43c4f5dbb0f6}">
-        <property name="uiTriggerBehaviorDrawerVisible">
-            <value>true</value>
-        </property>
-    </object>
+    <object class="SingleSound" id="{cdea7d27-025e-46bf-817a-bb561e532fc4}"/>
     <object class="EventMixerGroup" id="{a1e5aa39-752a-4f74-876d-a749d361269f}"/>
     <object class="SingleSound" id="{e3a1de72-a52d-4fd1-b29c-d858950a1069}">
         <property name="uiTriggerBehaviorDrawerVisible">
@@ -95,7 +88,6 @@
     <object class="ParameterCondition" id="{1c12ceb1-072c-45d8-b4e1-3afc26f31b9c}"/>
     <object class="MixerBusEffectChain" id="{5519d30b-6eaf-4c97-90aa-b0fd8a1d9a26}"/>
     <object class="MixerBusPanner" id="{8c9f56bf-8092-4a50-b707-c6c433c35042}"/>
-    <object class="ParameterCondition" id="{cfd45e90-1d26-4b8e-a0d8-3e71ac562d4c}"/>
     <object class="MixerBusEffectChain" id="{b57e2a13-1d9f-4eaf-84f3-7c8e53c4e42e}"/>
     <object class="MixerBusPanner" id="{36723be5-489b-4cb6-a425-7948227b4b94}"/>
     <object class="ParameterCondition" id="{f2e5f1bf-c758-4e82-832c-d516d97ddb8d}"/>

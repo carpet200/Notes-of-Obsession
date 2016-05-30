@@ -60,7 +60,7 @@
     <object class="MarkerTrack" id="{635c03cc-4746-4549-96af-de9ae614e83d}"/>
     <object class="GroupTrack" id="{b6a40841-50f2-4625-adee-d86029899604}">
         <relationship name="modules">
-            <destination>{c9b53750-f469-4201-8bac-a1c640511f3f}</destination>
+            <destination>{d5b60c3f-cebc-47ca-b924-6ee7087be1e4}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{7b384fd4-3711-44b7-bcb2-f3622df63a5e}</destination>
@@ -68,7 +68,7 @@
     </object>
     <object class="Timeline" id="{1c5c7bb0-38de-4764-b642-3bb8a18ef3c0}">
         <relationship name="modules">
-            <destination>{c9b53750-f469-4201-8bac-a1c640511f3f}</destination>
+            <destination>{d5b60c3f-cebc-47ca-b924-6ee7087be1e4}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{ece8acf7-baab-4b6c-bc57-94548d661bd7}">
@@ -88,7 +88,7 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{4607c42c-b799-43a9-a67d-926e73436d36}"/>
-    <object class="SingleSound" id="{c9b53750-f469-4201-8bac-a1c640511f3f}">
+    <object class="SingleSound" id="{d5b60c3f-cebc-47ca-b924-6ee7087be1e4}">
         <property name="start">
             <value>0</value>
         </property>
@@ -96,10 +96,13 @@
             <value>10.591111111111111</value>
         </property>
         <relationship name="audioFile">
-            <destination>{1b502093-01b5-415a-861a-59fc38c1d41f}</destination>
+            <destination>{198f439c-739e-49e5-9f1b-1c23aba8080e}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{7b384fd4-3711-44b7-bcb2-f3622df63a5e}">
+        <property name="volume">
+            <value>2</value>
+        </property>
         <property name="name">
             <value>Monster Death</value>
         </property>
@@ -131,7 +134,7 @@
     <object class="MixerBusFader" id="{7118fc40-1bd6-43c6-9507-2e59ff1d4335}"/>
     <object class="SpatialiserEffect" id="{c6ba8516-64af-4cbc-a421-8a045a27c28a}">
         <property name="maximumDistance">
-            <value>10</value>
+            <value>15</value>
         </property>
     </object>
     <object class="MixerSend" id="{dbf0eadc-f710-499c-8b23-ad18ec40f977}">
