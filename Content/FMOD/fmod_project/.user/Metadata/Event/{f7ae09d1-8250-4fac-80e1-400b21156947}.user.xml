@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.08.00">
     <object class="Event" id="{f7ae09d1-8250-4fac-80e1-400b21156947}">
-        <relationship name="selectables">
-            <destination>{a8842e11-f97d-4d7d-a5ab-ac192833298a}</destination>
-        </relationship>
         <relationship name="uiLastParameterSelection">
             <destination>{3adcecbd-e4ed-4ce5-9850-8d3fed28ca45}</destination>
         </relationship>
@@ -17,10 +14,14 @@
     <object class="MarkerTrack" id="{5dbf08f9-46ce-4256-849d-2bf1bf27bad4}"/>
     <object class="GroupTrack" id="{b5338777-fa51-4d12-bbb2-f24d63f2f35b}"/>
     <object class="GroupTrack" id="{60141dfa-e841-4a2d-824a-ea867ed3639a}"/>
-    <object class="GroupTrack" id="{41a5b01d-0aa7-4aa9-a226-c36e14d72e55}"/>
+    <object class="GroupTrack" id="{41a5b01d-0aa7-4aa9-a226-c36e14d72e55}">
+        <property name="uiAutomationTracksVisible">
+            <value>true</value>
+        </property>
+    </object>
     <object class="Timeline" id="{3adcecbd-e4ed-4ce5-9850-8d3fed28ca45}">
         <property name="cursorPosition">
-            <value>0</value>
+            <value>31.791023830916011</value>
         </property>
         <property name="uiLastRulerScaleRatio">
             <value>0.012516151114533863</value>
@@ -40,6 +41,7 @@
     <object class="EventSound" id="{b6ae92a1-c32d-41b1-a5d5-af67cca9aa50}"/>
     <object class="EventSound" id="{a8842e11-f97d-4d7d-a5ab-ac192833298a}"/>
     <object class="EventMixerGroup" id="{70445c12-b1ec-428f-9beb-e259cb925ae2}"/>
+    <object class="AutomationTrack" id="{1e74a18b-68d5-4181-a851-00485c6b35f0}"/>
     <object class="SingleSound" id="{71846fc0-581a-4475-9592-df089dbee0de}"/>
     <object class="EventMixerGroup" id="{0aa5144a-19e3-4e15-9d56-8a8b8a9b0eec}"/>
     <object class="MixerBusEffectChain" id="{f257d9ea-4eb7-4b6c-9b39-1e8b7d3bd6a4}"/>
